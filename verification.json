@@ -1,0 +1,27 @@
+{
+  "version": "0.8.1",
+  "checksPassed": 6,
+  "checks": [
+    "Web game bundles match the already-tested v0.8.1 independent offline builds byte for byte",
+    "Role selection and native scene previews load correctly below a project URL prefix",
+    "Clicking A starts the actual Phaser game without a download; cabinet, pickup and reload persistence work",
+    "Clicking B starts its own game; chart dragging and saved progress remain independent of A",
+    "Narrow-screen menu stacks both roles without horizontal overflow and its links still open the game",
+    "All HTML, scripts and images load from the same site; no ZIP download, external CDN or browser exception"
+  ],
+  "gameBundleParity": {
+    "A": true,
+    "B": true
+  },
+  "browserErrors": [],
+  "httpErrors": [],
+  "validation": "Actual hosted-file structure tested on localhost beneath a project URL prefix. Public hosting is not yet enabled or verified.",
+  "menuLayoutRegression": {
+    "checksPassed": 3,
+    "checks": [
+      "Desktop role preview images preserve the full 16:9 camera composition",
+      "Mobile preview images also retain their aspect ratio without horizontal overflow",
+      "Clicking the corrected responsive card still enters A directly"
+    ]
+  }
+}
