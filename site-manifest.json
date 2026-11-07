@@ -1,5 +1,5 @@
 {
-  "version": "0.12.0",
+  "version": "0.13.0",
   "hostingRepository": "laziestaustin/the-midnight-observatory-demo",
   "expectedUrl": "https://laziestaustin.github.io/the-midnight-observatory-demo/",
   "roles": {
@@ -9,9 +9,10 @@
   "testChapters": [
     1,
     2,
-    3
+    3,
+    4
   ],
-  "testEntryExample": "A/?test=3",
+  "testEntryExample": "A/?test=4",
   "build": "Static Phaser game with separately loaded role assets; no backend or external CDN.",
   "storage": "Fully independent role saves. Offline information dependency: A reveals plate calibration, B manually opens the installation seal. No BroadcastChannel, shared room or remote state.",
   "deploymentStatus": "Prepared for public demo repository gh-pages branch; publication depends on repository Pages settings."

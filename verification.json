@@ -1,14 +1,40 @@
 {
-  "version": "0.12.0",
-  "unitTestsPassed": 48,
-  "chapterTesting": {
-    "version": "0.12.0",
-    "checksPassed": 9,
+  "version": "0.13.0",
+  "unitTestsPassed": 66,
+  "fourthActManualCooperation": {
+    "version": "0.13.0",
+    "checksPassed": 12,
+    "checks": [
+      "Actual independent role HTMLs enter Act IV in separate storage contexts and continue with browser networking disabled",
+      "A sees device controls and local readings only; B sees paper rules only, with no live A device configuration or controls",
+      "A cannot bypass preflight: a whole-module failure preserves state and the mirror controls remain locked",
+      "The driver reads A visible model/signal, looks up B visible procedure, and operates the actual branch and filter controls to unlock the mirrors",
+      "New target-frame information requires the next manual page; real carriage dragging and mirror rotation produce the physical four-reflection path, while a wrong full setup fails",
+      "Refresh preserves the chosen hardware configuration and locked-in progress rather than rerolling a new answer",
+      "Releasing the held plunger outside the game canvas still submits once and clears the pressed state",
+      "B must hear the newly revealed echo count; releasing in the wrong live sector triggers protection and retains the finished mirror setup for retry",
+      "A completes by physically holding and releasing on B instructed sector; this does not manufacture a completed B state",
+      "B finishes with an explicitly labelled manual call acknowledgement, not a simulated remote verification or a second device interface",
+      "Four chapter entries, per-chapter restart, private partner progress and return to the normal story remain independent",
+      "The paper manual and saved acknowledgement remain intact at high display density"
+    ],
+    "browserErrors": [],
+    "httpErrors": [],
+    "network": "Two isolated contexts; actual embedded role HTMLs loaded once then operated offline. A temporarily reloaded online only to check persistence.",
+    "progression": "Only player-visible chapter skips prepare earlier acts; all fourth-act progress uses real pointer input. Answers are read from A visible device text and B visible paper rules.",
+    "completionProtocol": "A device success; B explicitly acknowledges the voice report by hand. Neither program verifies remote state.",
+    "imageApiCalls": 0,
+    "humanBlindPlaytest": false
+  },
+  "thirdActRegressionAndTransition": {
+    "version": "0.13.0",
+    "checksPassed": 10,
     "checks": [
       "Two actual standalone role builds run in separate browser contexts with disjoint storage; both are then disconnected from the network",
       "B can collect and inspect the glass, but the physical closed layer blocks installation and default-value unlocking; the answer is absent from both early UIs",
       "A must actually recover, mount and fully illuminate the plate; inventory inspection, mounting alone and partial light do not reveal the calibration",
       "Only the illuminated A plate reveals the complete time/direction readout; isolated B receives no automatic value or progress change",
+      "The completed third-act physical door opens the fourth-act test, and returning through the chapter menu preserves the already-read plate",
       "The human-read A values are entered only through B physical wheel/drag controls: a partial wrong code fails as a whole, and the correct code animates the cover open offline",
       "After the information seal opens, B can install and freely adjust glass; only the whole image is judged, and the completed message works with both pages offline",
       "Restarting independent A cannot revoke or modify B already received information or completed local save; no partner storage is shared",
@@ -24,9 +50,9 @@
     "imageApiCalls": 0,
     "humanBlindPlaytest": false
   },
-  "normalThreeActProgression": {
-    "version": "0.12.0",
-    "checksPassed": 14,
+  "normalProgressionIntoActFour": {
+    "version": "0.13.0",
+    "checksPassed": 15,
     "checks": [
       "Two actual HTML builds pin opposite roles despite URL overrides; no counterpart state or role-switch control",
       "A/B archives embed only their role asset manifests",
@@ -40,7 +66,8 @@
       "A restores the drive and B independently verifies full tooth counts and normalized 12:z ratios; no units-digit code",
       "Normal story enters the rebuilt third act from both second-act endings; B lights the damaged cabinet and A physically opens it and illuminates the recovered plate without a skip",
       "B reconstructs the glass and exposes it after manual entry of the seal read from A; all three acts complete through actual player input",
-      "The two isolated role saves remain independent: resetting A cannot revoke B locally opened seal or completion, which survives B refresh",
+      "The normal story enters Act IV from both actual third-act endings; A gets only the device and B only the manual, with all prior progress preserved",
+      "The two isolated role saves remain independent: resetting A preserves B earlier repair and current fourth-act progress through B refresh",
       "Both loaded games continue offline with private journals"
     ],
     "browserErrors": [],
@@ -54,16 +81,16 @@
     "completionProtocol": "Each player completes their own milestones, then confirms with the other player through actual voice communication. A and B run in isolated browser contexts. The test reads A visible information and enters it through B controls; the games exchange no state."
   },
   "website": {
-    "version": "0.12.0",
+    "version": "0.13.0",
     "checksPassed": 8,
     "checks": [
-      "Web game bundles match the already-tested v0.12.0 independent offline builds byte for byte",
+      "Web game bundles match the already-tested v0.13.0 independent offline builds byte for byte",
       "Role selection and native scene previews load correctly below a project URL prefix",
       "Clicking A starts the actual Phaser game without a download; cabinet, pickup and reload persistence work",
       "Clicking B starts its own game; chart dragging and saved progress remain independent of A",
       "Narrow-screen menu stacks both roles without horizontal overflow and its links still open the game",
-      "Landing chapter selector exposes all six role/chapter links and stays within a narrow viewport",
-      "An actual landing-page third-act link opens B chapter testing directly without downloading",
+      "Landing chapter selector exposes all eight role/chapter links and stays within a narrow viewport",
+      "An actual landing-page fourth-act link opens B chapter testing directly without downloading",
       "All HTML, scripts and images load from the same site; no ZIP download, external CDN or browser exception"
     ],
     "gameBundleParity": {
@@ -76,5 +103,5 @@
   },
   "imageApiCalls": 0,
   "humanBlindPlaytest": false,
-  "artStatus": "Acts II and III are explicitly labelled prototypes; final art remains to be produced."
+  "artStatus": "Acts II to IV are explicitly labelled prototypes; final art remains to be produced."
 }
