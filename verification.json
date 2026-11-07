@@ -1,30 +1,33 @@
 {
-  "version": "0.10.0",
-  "unitTestsPassed": 36,
+  "version": "0.11.0",
+  "unitTestsPassed": 48,
   "chapterTesting": {
-    "version": "0.10.0",
-    "checksPassed": 9,
+    "version": "0.11.0",
+    "checksPassed": 12,
     "checks": [
-      "The visible chapter menu starts the redesigned third act unsolved, keeping normal story saves separate",
-      "A real cabinet door and its catches remain closed without the tool, and B cannot pick up glass outside the flashlight beam",
-      "Moving the real hand lamp exposes the three physical rails; picking up each fragment records only B local direction clues and adds it to B inventory",
-      "The pry bar enables real directional catch drags; a wrong direction hits a stop, all three releases permit an animated door opening without a pane flash",
-      "The actual plate can be picked up, inspected, mounted and gradually lit by a draggable shutter; A completes only after seeing its full image",
-      "Wrong glass orientations fail to fit; wheel/click rotation and actual drags assemble three distinct glass edges with immediate visual fit feedback",
-      "Opening the completed glass shutter reveals the story message; both finished test saves survive refresh without changing either normal story save",
-      "Restarting the new third-act test affects only the chosen role; returning to the story restores the actual earlier cabinet/lens state",
-      "The direct test link keeps its role lock and physical catch/tool dragging remains aligned at DPR 2"
+      "Both actual chapter menus enter independent unsolved third acts; only a small A projection record is shared",
+      "B can place a wrong piece and rotation without correctness feedback; it stays movable instead of acting as an answer oracle",
+      "The user bypass is reproduced and blocked: even a perfectly solved B assembly cannot expose or complete before A mounts the plate",
+      "Refreshing B preserves its preparation but cannot bypass the missing past action",
+      "A actually opens the cabinet, recovers and mounts its glass; B receives that event, while exposure still requires A to illuminate it",
+      "A partial light adjustment propagates, with no premature B completion",
+      "A full illumination unlocks B through actual cross-tab events without rebuilding or flashing B inspection, and B does not auto-complete",
+      "Only whole-image exposure judges the arrangement; the successful B receipt belongs to the actual current A run",
+      "Valid paired completion survives refresh and reinspection while both normal story saves remain byte-identical",
+      "Restarting A revokes B old receipt, keeps B collected pieces, and prevents an obsolete A tab from restoring the old signal or overwriting the fresh save",
+      "A revoked receipt stays revoked across refresh; exiting chapter testing restores the real normal story",
+      "Role locks, chapter entry and physical tool/catch dragging still work at DPR 2"
     ],
     "browserErrors": [],
     "httpErrors": [],
     "storyPreserved": true,
     "imageApiCalls": 0,
     "usedProgressionFixtures": false,
-    "humanBlindPlaytest": false,
-    "artStatus": "The cabinet, glass plate and hand lamp are clearly labelled prototype art, not final commercial assets."
+    "transport": "Actual same-origin BroadcastChannel and browser storage; not cross-device networking.",
+    "humanBlindPlaytest": false
   },
   "normalThreeActProgression": {
-    "version": "0.10.0",
+    "version": "0.11.0",
     "checksPassed": 14,
     "checks": [
       "Two actual HTML builds pin opposite roles despite URL overrides; no counterpart state or role-switch control",
@@ -38,8 +41,8 @@
       "Dragging an installed wheel swaps its shaft; inspection remains opaque and visible throughout the state update",
       "A restores the drive and B independently verifies full tooth counts and normalized 12:z ratios; no units-digit code",
       "Normal story enters the rebuilt third act from both second-act endings; B lights the damaged cabinet and A physically opens it and illuminates the recovered plate without a skip",
-      "B independently reconstructs all glass edges and reveals the old message with the lightbox shutter; all three acts complete through real pointer inputs",
-      "Resetting A preserves B and the legacy save; B third-act completion survives reload",
+      "B reconstructs the glass and exposes it only after the real A projection; all three acts complete through actual player input",
+      "Resetting A revokes B old exposure receipt while preserving B fragments, notes, earlier acts and the legacy save; the revoked state survives reload",
       "Both loaded games continue offline with private journals"
     ],
     "browserErrors": [],
@@ -50,13 +53,13 @@
     "imageApiCalls": 0,
     "humanBlindPlaytest": false,
     "artStatus": "Acts II and III explicitly labelled interaction prototypes; cabinet/glass/hand-lamp prototype scene layers are not final art.",
-    "completionProtocol": "Each player completes their own milestones, then confirms with the other player through actual voice communication. No remote state synchronisation is claimed."
+    "completionProtocol": "Each player completes their own milestones, then confirms with the other player through actual voice communication. Third-act projection milestones synchronise only between same-origin tabs in the same browser. No cross-device networking is claimed."
   },
   "website": {
-    "version": "0.10.0",
+    "version": "0.11.0",
     "checksPassed": 8,
     "checks": [
-      "Web game bundles match the already-tested v0.10.0 independent offline builds byte for byte",
+      "Web game bundles match the already-tested v0.11.0 independent offline builds byte for byte",
       "Role selection and native scene previews load correctly below a project URL prefix",
       "Clicking A starts the actual Phaser game without a download; cabinet, pickup and reload persistence work",
       "Clicking B starts its own game; chart dragging and saved progress remain independent of A",
