@@ -1,12 +1,18 @@
 {
-  "version": "0.8.1",
+  "version": "0.9.0",
+  "hostingRepository": "laziestaustin/the-midnight-observatory-demo",
+  "expectedUrl": "https://laziestaustin.github.io/the-midnight-observatory-demo/",
   "roles": {
     "A": "A/",
     "B": "B/"
   },
+  "testChapters": [
+    1,
+    2,
+    3
+  ],
+  "testEntryExample": "A/?test=3",
   "build": "Static Phaser game with separately loaded role assets; no backend or external CDN.",
-  "storage": "Existing independent A/B save keys; hosted origin has separate browser storage from file://.",
-  "deploymentStatus": "Prepared for public demo repository gh-pages branch; publication depends on repository Pages settings.",
-  "hostingRepository": "laziestaustin/the-midnight-observatory-demo",
-  "expectedUrl": "https://laziestaustin.github.io/the-midnight-observatory-demo/"
+  "storage": "Independent role saves. Each role and test chapter has a separate save key from story mode.",
+  "deploymentStatus": "Prepared for public demo repository gh-pages branch; publication depends on repository Pages settings."
 }

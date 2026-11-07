@@ -1,27 +1,77 @@
 {
-  "version": "0.8.1",
-  "checksPassed": 6,
-  "checks": [
-    "Web game bundles match the already-tested v0.8.1 independent offline builds byte for byte",
-    "Role selection and native scene previews load correctly below a project URL prefix",
-    "Clicking A starts the actual Phaser game without a download; cabinet, pickup and reload persistence work",
-    "Clicking B starts its own game; chart dragging and saved progress remain independent of A",
-    "Narrow-screen menu stacks both roles without horizontal overflow and its links still open the game",
-    "All HTML, scripts and images load from the same site; no ZIP download, external CDN or browser exception"
-  ],
-  "gameBundleParity": {
-    "A": true,
-    "B": true
-  },
-  "browserErrors": [],
-  "httpErrors": [],
-  "validation": "Actual hosted-file structure tested on localhost beneath a project URL prefix. Public hosting is not yet enabled or verified.",
-  "menuLayoutRegression": {
-    "checksPassed": 3,
+  "version": "0.9.0",
+  "unitTestsPassed": 34,
+  "chapterTesting": {
+    "version": "0.9.0",
+    "checksPassed": 9,
     "checks": [
-      "Desktop role preview images preserve the full 16:9 camera composition",
-      "Mobile preview images also retain their aspect ratio without horizontal overflow",
-      "Clicking the corrected responsive card still enters A directly"
-    ]
-  }
+      "Both real chapter-menu buttons enter an unsolved third act with earlier milestones prepared and story saves untouched",
+      "Plaque and physical pen pickup/inspection/use gate engraving; dragging the inventory pen prepares the stone wall",
+      "Past plaque and future back-face photo reveal distinct local clues; telephone use does not copy a partner record",
+      "Wrong marks stay visible without completing; swapping templates and flipping preview yields correct engraving with no pane flash",
+      "A physical scanner sweep rejects wrong timestamps, then a fast reverse sweep validates all four correct observations and reveals the earned next-act clue",
+      "Third-act test progress survives reload while both normal story saves remain byte-identical",
+      "First and second acts can each be entered directly; each chapter retains its own independent test progress",
+      "Restart resets only A third-act testing; returning to normal story restores the original real lens/cabinet progress",
+      "Direct chapter-test URL pins the correct role and pen/template dragging remains aligned on a DPR 2 screen"
+    ],
+    "browserErrors": [],
+    "storyPreserved": true,
+    "usedProgressionFixtures": false,
+    "imageApiCalls": 0,
+    "artStatus": "Act III is explicitly labelled prototype art. All progression in this run used real player controls, including the requested chapter-testing entry."
+  },
+  "normalThreeActProgression": {
+    "version": "0.9.0",
+    "checksPassed": 14,
+    "checks": [
+      "Two actual HTML builds pin opposite roles despite URL overrides; no counterpart state or role-switch control",
+      "A/B archives embed only their role asset manifests",
+      "A obtains and voices its observation without writing any B note or progress",
+      "B restores its own chart and reads the rule; A receives no automatic note",
+      "A finishes its two local milestones while B remains unfinished; A ending does not reveal B record",
+      "B locates a historical record by RA 07h41m / declination +09 degrees; no naked four-digit password",
+      "Both enter Act II with separate progress; physical cover and worn scan reveal only local clues, including during phone use",
+      "Real wheel drags assemble four independent shafts; running with the cover open or the wrong assembly fails",
+      "Dragging an installed wheel swaps its shaft; inspection remains opaque and visible throughout the state update",
+      "A restores the drive and B independently verifies full tooth counts and normalized 12:z ratios; no units-digit code",
+      "Normal story advances from both second-act endings into an unsolved third act; A completes real pen and mirror-wall operations without a skip or fixture",
+      "B completes the normal third-act time-tag reconstruction and manual scanner sweep; all three acts have now been played through with real input",
+      "Resetting A preserves B and the legacy save; B third-act completion survives reload",
+      "Both loaded games continue offline with private journals"
+    ],
+    "browserErrors": [],
+    "nativeFileLaunch": {
+      "status": "blocked-environment-policy",
+      "reason": "Managed Chromium blocks file:// with an organization policy page; policy was not changed. Actual standalone HTML was tested through localhost, including offline operation after loading."
+    },
+    "imageApiCalls": 0,
+    "humanBlindPlaytest": false,
+    "artStatus": "Acts II and III explicitly labelled interaction prototypes; procedural scene layers are not final art.",
+    "completionProtocol": "Each player completes their own milestones, then confirms with the other player through actual voice communication. No remote state synchronisation is claimed."
+  },
+  "website": {
+    "version": "0.9.0",
+    "checksPassed": 8,
+    "checks": [
+      "Web game bundles match the already-tested v0.9.0 independent offline builds byte for byte",
+      "Role selection and native scene previews load correctly below a project URL prefix",
+      "Clicking A starts the actual Phaser game without a download; cabinet, pickup and reload persistence work",
+      "Clicking B starts its own game; chart dragging and saved progress remain independent of A",
+      "Narrow-screen menu stacks both roles without horizontal overflow and its links still open the game",
+      "Landing chapter selector exposes all six role/chapter links and stays within a narrow viewport",
+      "An actual landing-page third-act link opens B chapter testing directly without downloading",
+      "All HTML, scripts and images load from the same site; no ZIP download, external CDN or browser exception"
+    ],
+    "gameBundleParity": {
+      "A": true,
+      "B": true
+    },
+    "browserErrors": [],
+    "httpErrors": [],
+    "validation": "Actual hosted-file structure tested on localhost beneath a project URL prefix. Public deployment status is verified separately through the GitHub Pages workflow."
+  },
+  "imageApiCalls": 0,
+  "humanBlindPlaytest": false,
+  "artStatus": "Acts II and III are explicitly labelled prototypes; final art remains to be produced."
 }
