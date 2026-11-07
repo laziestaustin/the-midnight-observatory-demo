@@ -1,5 +1,5 @@
 {
-  "version": "0.11.0",
+  "version": "0.12.0",
   "hostingRepository": "laziestaustin/the-midnight-observatory-demo",
   "expectedUrl": "https://laziestaustin.github.io/the-midnight-observatory-demo/",
   "roles": {
@@ -13,6 +13,6 @@
   ],
   "testEntryExample": "A/?test=3",
   "build": "Static Phaser game with separately loaded role assets; no backend or external CDN.",
-  "storage": "Independent role saves. Act III causal events synchronise across same-browser tabs using BroadcastChannel and same-origin storage. Story, chapter tests and optional rooms stay isolated. No cross-device networking.",
+  "storage": "Fully independent role saves. Offline information dependency: A reveals plate calibration, B manually opens the installation seal. No BroadcastChannel, shared room or remote state.",
   "deploymentStatus": "Prepared for public demo repository gh-pages branch; publication depends on repository Pages settings."
 }

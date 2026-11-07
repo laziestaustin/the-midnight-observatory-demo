@@ -1,33 +1,31 @@
 {
-  "version": "0.11.0",
+  "version": "0.12.0",
   "unitTestsPassed": 48,
   "chapterTesting": {
-    "version": "0.11.0",
-    "checksPassed": 12,
+    "version": "0.12.0",
+    "checksPassed": 9,
     "checks": [
-      "Both actual chapter menus enter independent unsolved third acts; only a small A projection record is shared",
-      "B can place a wrong piece and rotation without correctness feedback; it stays movable instead of acting as an answer oracle",
-      "The user bypass is reproduced and blocked: even a perfectly solved B assembly cannot expose or complete before A mounts the plate",
-      "Refreshing B preserves its preparation but cannot bypass the missing past action",
-      "A actually opens the cabinet, recovers and mounts its glass; B receives that event, while exposure still requires A to illuminate it",
-      "A partial light adjustment propagates, with no premature B completion",
-      "A full illumination unlocks B through actual cross-tab events without rebuilding or flashing B inspection, and B does not auto-complete",
-      "Only whole-image exposure judges the arrangement; the successful B receipt belongs to the actual current A run",
-      "Valid paired completion survives refresh and reinspection while both normal story saves remain byte-identical",
-      "Restarting A revokes B old receipt, keeps B collected pieces, and prevents an obsolete A tab from restoring the old signal or overwriting the fresh save",
-      "A revoked receipt stays revoked across refresh; exiting chapter testing restores the real normal story",
-      "Role locks, chapter entry and physical tool/catch dragging still work at DPR 2"
+      "Two actual standalone role builds run in separate browser contexts with disjoint storage; both are then disconnected from the network",
+      "B can collect and inspect the glass, but the physical closed layer blocks installation and default-value unlocking; the answer is absent from both early UIs",
+      "A must actually recover, mount and fully illuminate the plate; inventory inspection, mounting alone and partial light do not reveal the calibration",
+      "Only the illuminated A plate reveals the complete time/direction readout; isolated B receives no automatic value or progress change",
+      "The human-read A values are entered only through B physical wheel/drag controls: a partial wrong code fails as a whole, and the correct code animates the cover open offline",
+      "After the information seal opens, B can install and freely adjust glass; only the whole image is judged, and the completed message works with both pages offline",
+      "Restarting independent A cannot revoke or modify B already received information or completed local save; no partner storage is shared",
+      "B keeps its own unlocked/completed save through refresh; restarting B resets only its own layer and restores the information gate",
+      "Tool use, physical catch dragging and the new seal knobs remain aligned on DPR 2 displays"
     ],
     "browserErrors": [],
     "httpErrors": [],
-    "storyPreserved": true,
-    "imageApiCalls": 0,
     "usedProgressionFixtures": false,
-    "transport": "Actual same-origin BroadcastChannel and browser storage; not cross-device networking.",
+    "browserContexts": "Two separate storage/communication partitions, simulating independent computers.",
+    "network": "Both role builds loaded once, then all puzzle input and manual clue transfer performed with browser networking disabled; temporary online reload tests only save persistence.",
+    "communication": "Only test-driver human-style reading A visible text and entering B knobs. No game-to-game communication.",
+    "imageApiCalls": 0,
     "humanBlindPlaytest": false
   },
   "normalThreeActProgression": {
-    "version": "0.11.0",
+    "version": "0.12.0",
     "checksPassed": 14,
     "checks": [
       "Two actual HTML builds pin opposite roles despite URL overrides; no counterpart state or role-switch control",
@@ -41,8 +39,8 @@
       "Dragging an installed wheel swaps its shaft; inspection remains opaque and visible throughout the state update",
       "A restores the drive and B independently verifies full tooth counts and normalized 12:z ratios; no units-digit code",
       "Normal story enters the rebuilt third act from both second-act endings; B lights the damaged cabinet and A physically opens it and illuminates the recovered plate without a skip",
-      "B reconstructs the glass and exposes it only after the real A projection; all three acts complete through actual player input",
-      "Resetting A revokes B old exposure receipt while preserving B fragments, notes, earlier acts and the legacy save; the revoked state survives reload",
+      "B reconstructs the glass and exposes it after manual entry of the seal read from A; all three acts complete through actual player input",
+      "The two isolated role saves remain independent: resetting A cannot revoke B locally opened seal or completion, which survives B refresh",
       "Both loaded games continue offline with private journals"
     ],
     "browserErrors": [],
@@ -53,13 +51,13 @@
     "imageApiCalls": 0,
     "humanBlindPlaytest": false,
     "artStatus": "Acts II and III explicitly labelled interaction prototypes; cabinet/glass/hand-lamp prototype scene layers are not final art.",
-    "completionProtocol": "Each player completes their own milestones, then confirms with the other player through actual voice communication. Third-act projection milestones synchronise only between same-origin tabs in the same browser. No cross-device networking is claimed."
+    "completionProtocol": "Each player completes their own milestones, then confirms with the other player through actual voice communication. A and B run in isolated browser contexts. The test reads A visible information and enters it through B controls; the games exchange no state."
   },
   "website": {
-    "version": "0.11.0",
+    "version": "0.12.0",
     "checksPassed": 8,
     "checks": [
-      "Web game bundles match the already-tested v0.11.0 independent offline builds byte for byte",
+      "Web game bundles match the already-tested v0.12.0 independent offline builds byte for byte",
       "Role selection and native scene previews load correctly below a project URL prefix",
       "Clicking A starts the actual Phaser game without a download; cabinet, pickup and reload persistence work",
       "Clicking B starts its own game; chart dragging and saved progress remain independent of A",
