@@ -1,28 +1,30 @@
 {
-  "version": "0.9.0",
-  "unitTestsPassed": 34,
+  "version": "0.10.0",
+  "unitTestsPassed": 36,
   "chapterTesting": {
-    "version": "0.9.0",
+    "version": "0.10.0",
     "checksPassed": 9,
     "checks": [
-      "Both real chapter-menu buttons enter an unsolved third act with earlier milestones prepared and story saves untouched",
-      "Plaque and physical pen pickup/inspection/use gate engraving; dragging the inventory pen prepares the stone wall",
-      "Past plaque and future back-face photo reveal distinct local clues; telephone use does not copy a partner record",
-      "Wrong marks stay visible without completing; swapping templates and flipping preview yields correct engraving with no pane flash",
-      "A physical scanner sweep rejects wrong timestamps, then a fast reverse sweep validates all four correct observations and reveals the earned next-act clue",
-      "Third-act test progress survives reload while both normal story saves remain byte-identical",
-      "First and second acts can each be entered directly; each chapter retains its own independent test progress",
-      "Restart resets only A third-act testing; returning to normal story restores the original real lens/cabinet progress",
-      "Direct chapter-test URL pins the correct role and pen/template dragging remains aligned on a DPR 2 screen"
+      "The visible chapter menu starts the redesigned third act unsolved, keeping normal story saves separate",
+      "A real cabinet door and its catches remain closed without the tool, and B cannot pick up glass outside the flashlight beam",
+      "Moving the real hand lamp exposes the three physical rails; picking up each fragment records only B local direction clues and adds it to B inventory",
+      "The pry bar enables real directional catch drags; a wrong direction hits a stop, all three releases permit an animated door opening without a pane flash",
+      "The actual plate can be picked up, inspected, mounted and gradually lit by a draggable shutter; A completes only after seeing its full image",
+      "Wrong glass orientations fail to fit; wheel/click rotation and actual drags assemble three distinct glass edges with immediate visual fit feedback",
+      "Opening the completed glass shutter reveals the story message; both finished test saves survive refresh without changing either normal story save",
+      "Restarting the new third-act test affects only the chosen role; returning to the story restores the actual earlier cabinet/lens state",
+      "The direct test link keeps its role lock and physical catch/tool dragging remains aligned at DPR 2"
     ],
     "browserErrors": [],
+    "httpErrors": [],
     "storyPreserved": true,
-    "usedProgressionFixtures": false,
     "imageApiCalls": 0,
-    "artStatus": "Act III is explicitly labelled prototype art. All progression in this run used real player controls, including the requested chapter-testing entry."
+    "usedProgressionFixtures": false,
+    "humanBlindPlaytest": false,
+    "artStatus": "The cabinet, glass plate and hand lamp are clearly labelled prototype art, not final commercial assets."
   },
   "normalThreeActProgression": {
-    "version": "0.9.0",
+    "version": "0.10.0",
     "checksPassed": 14,
     "checks": [
       "Two actual HTML builds pin opposite roles despite URL overrides; no counterpart state or role-switch control",
@@ -35,8 +37,8 @@
       "Real wheel drags assemble four independent shafts; running with the cover open or the wrong assembly fails",
       "Dragging an installed wheel swaps its shaft; inspection remains opaque and visible throughout the state update",
       "A restores the drive and B independently verifies full tooth counts and normalized 12:z ratios; no units-digit code",
-      "Normal story advances from both second-act endings into an unsolved third act; A completes real pen and mirror-wall operations without a skip or fixture",
-      "B completes the normal third-act time-tag reconstruction and manual scanner sweep; all three acts have now been played through with real input",
+      "Normal story enters the rebuilt third act from both second-act endings; B lights the damaged cabinet and A physically opens it and illuminates the recovered plate without a skip",
+      "B independently reconstructs all glass edges and reveals the old message with the lightbox shutter; all three acts complete through real pointer inputs",
       "Resetting A preserves B and the legacy save; B third-act completion survives reload",
       "Both loaded games continue offline with private journals"
     ],
@@ -47,14 +49,14 @@
     },
     "imageApiCalls": 0,
     "humanBlindPlaytest": false,
-    "artStatus": "Acts II and III explicitly labelled interaction prototypes; procedural scene layers are not final art.",
+    "artStatus": "Acts II and III explicitly labelled interaction prototypes; cabinet/glass/hand-lamp prototype scene layers are not final art.",
     "completionProtocol": "Each player completes their own milestones, then confirms with the other player through actual voice communication. No remote state synchronisation is claimed."
   },
   "website": {
-    "version": "0.9.0",
+    "version": "0.10.0",
     "checksPassed": 8,
     "checks": [
-      "Web game bundles match the already-tested v0.9.0 independent offline builds byte for byte",
+      "Web game bundles match the already-tested v0.10.0 independent offline builds byte for byte",
       "Role selection and native scene previews load correctly below a project URL prefix",
       "Clicking A starts the actual Phaser game without a download; cabinet, pickup and reload persistence work",
       "Clicking B starts its own game; chart dragging and saved progress remain independent of A",
