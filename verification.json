@@ -1,8 +1,139 @@
 {
-  "version": "0.16.0",
-  "unitTestsPassed": 95,
+  "version": "0.17.0",
+  "unitTestsPassed": 99,
+  "verifiedBuild": {
+    "version": "0.17.0",
+    "sources": {
+      "index.html": "cbbeb6e143c74f66ca554aa2a64f56a306ba0b2ccb7b996b9218a7f45383b142",
+      "package.json": "0520a9d938f95b77f1d47ecdf65124d903842c51b4b178224362a32829371aca",
+      "package-lock.json": "673b9bedde92193e1176bd6e4096c603954f5167d795c7174ad1b117a1283b2e",
+      "vite.config.js": "bc190acbfcba2fa7f767d44cc30d07d1149dc92359140e09def7831f41908525",
+      "scripts/build-coop.mjs": "12b1058ec65620733e69d41afc0147dd59e2871519a218d9384c1fb19e55c514",
+      "scripts/build-web.mjs": "2df02bd5617cee22c3751b14d576110e96831d05229b937809054b5c75074aad",
+      "web/index.html": "b7666021f3afa51ae4acaaba962c18ddaa2564d5127186943b4275b1136b9b1d",
+      "src/act-five.js": "37cdd9914a0df3bf89a1a3343129a146e7db326060728bb932e00db81da57d12",
+      "src/act-four.js": "af149f4925d43c3818be50a499260ab1af12289b3d27a0fec46a6fb7850e2aaa",
+      "src/act-three.js": "43213eef82bf6eda4ef7e92560634b655d5d57236f9af7537ea19b16db48197f",
+      "src/act-two.js": "c860a90a8264b2097d03fecba33d9bf29be5f8b0ef20d9729790392032e5b9b3",
+      "src/astronomy.js": "3b348c33e0a5065ba8af20cbefa5ec761851dca39139cadd152975da96b4b2c9",
+      "src/audio.js": "6eefd8d11fa27cccbeabb4753f6c8aaf62a61bc853feb28f57b56661c6cd1ffa",
+      "src/build-role.js": "40fbef3353abe2851e06db6cbb8f523bdb9189db36e4223acdf257d19913cfef",
+      "src/chapters.js": "58410ae286fb691d429c50d35a90949aa3218d52d819e775d0aeaa4aa53b1a87",
+      "src/content.js": "50d7792a122519c0cdc65b8237c5adfe3192cda62ba9866fa1dff6fc196e4ee8",
+      "src/finale.js": "435127018a2bf5c2c5bdcb91810e72b72226f52be04b02fd05720f9c4fbf87dd",
+      "src/game.js": "efb0cfc9cd3d5766f749e58f365a4e6bd1510e5294b7a201060f3a347099dd97",
+      "src/inscriptions.js": "a4891a4a4702d670481180385985c82970df9e7039c4db092d0d1f5286493c25",
+      "src/linear-control.js": "44eb3fb634ebcf38b51dd56fece0757a72b0ab00cea38c157ed066a4b0daf23d",
+      "src/main.js": "1e5d69c1a20bca7cda777ffff4e113657836af360ef5ad5105a8dfb68f6ddffb",
+      "src/mechanics.js": "484e6f2363d15ab47a8abc0ab795d2d8b79947f08a8cfd258f6a56e76ce59e98",
+      "src/optics.js": "e0956c742f61e5c6aa323c05144826067fae4d57550634ce6f02cdb59b4e2dd3",
+      "src/rendering.js": "9c87656201da4c006e72a466103a90915de9d1f656c8f98bac2061d1e0ab1e2b",
+      "src/rotary-control.js": "5f93a867471260427e342bef1a59f436b78a0d408d7ccae3a38a6a30450d4d00",
+      "src/sky-reference.js": "3c262020146e084f54d3cf7a22e2f4451ce724ce34aa79c1f23dff9e19778cc3",
+      "src/state.js": "a8cc42a3310c137a98712abe85d748d4e4d82b7fb2f1a4740e2421ef58e4ed5d",
+      "src/story.js": "52740a586932b2fb43590ef0a4dcb17ba4f59aef7854e10d012ab07c85d120c4",
+      "src/ui.js": "7b0e7ca94894e0923c8fdbf35a41151db9e2750c60d2fc5ef97574a0a1b2b7b3",
+      "public/art/cabinet-closed.png": "3316f6aeb5eb8bd773485101e6777a607d89d8d882cce809634bf509831af67e",
+      "public/art/cabinet-open.png": "62e849a19a71dc9541fcc36767c641a5c7c5f19ec8958bbee74e2b2d0bc890bf",
+      "public/art/calibration.png": "12c0305349c76100d728704ce98c4c31208974adc4bb9f58e37c670da9b9c4ff",
+      "public/art/chart-paper.png": "a7c986aaca4caa3d92f75ed141a4b1eb82297be1516b5ef626bc947318931fd8",
+      "public/art/chart.png": "49c9cafb5f00c9b5f665bf3c94f16365be40cf01c6de391ae4693a5158031e55",
+      "public/art/hall-1986-open.png": "309fa1b6512778bfe9d1fe961ea1886229435322498446a7044d92779f153c5c",
+      "public/art/hall-1986.png": "7f0aa28ce4282b150c2460d5286b298a5c9f02464523a0dc7f70900c54f9cf8e",
+      "public/art/hall-2066.png": "f31df3ec64f354c64189b5ea954eafac9f94004040344be0c8820abe3d27d1e8",
+      "public/art/hardware.png": "0846b48652e199c3aa7f3a49a8e8a9bff4292bb0e26e5fbc4b5c1fc414c3e780",
+      "public/art/items.png": "c9e9bcd669973333bb6c4d576df2e589c7d45475265b147d976934e0c036cdbb",
+      "public/art/press-latch.png": "28d924ddc9258129f4b7afb2c31fd00404a6688c5d98dab3d87e53f6709a80ba",
+      "public/art/telescope.png": "0af500899b36b4e9285355f39d3114b09861970b5bc5c01608893ed14d05e9cb",
+      "public/art/terminal.png": "b1ad498ed6f6ac1cfa754d97878c80672ad1a2a7ea44b44a160c8dc1f223aed1"
+    },
+    "bundles": {
+      "release/coop/Midnight-Observatory-A-1986.html": "cef4db4656b28b8080e08d305397ef8b15b710e310ff231829e6f1a9c9d283e8",
+      "release/coop/Midnight-Observatory-B-2066.html": "7f9c3f9a2c637b099ae84f12d03b2943ddd4aef01b92d9407f54ca6d47c7bda8",
+      "release/site/A/index.html": "7c504c2e6e788c31fffd67bb93820696164881329a0ef902eaddffb249481c5e",
+      "release/site/B/index.html": "3dcde8cd6c93e3cea3c598599ce1c0711c63abd66e258087932569b29550ed57",
+      "release/site/A/assets/index-SypxXfa2.js": "5ae286e47a5d309d1f54cd256201cb5b5365710bcbe3014b1e2bda06a15cfcd8",
+      "release/site/B/assets/index-B-F4WVMw.js": "ece6926f537494d1fdee71d6a10aa2a7e88e84435d3dbb1c31e75e442ea16df2"
+    },
+    "buildCompletedAt": 1794241506.9565866
+  },
+  "firstThreeActFlow": {
+    "version": "0.17.0",
+    "checksPassed": 18,
+    "checks": [
+      "Two actual HTML builds pin opposite roles despite URL overrides; no counterpart state or role-switch control",
+      "Act I states the common exit goal and the immediate purpose of identifying the same historical observation",
+      "A/B archives embed only their role asset manifests",
+      "A obtains and voices its observation without writing any B note or progress",
+      "B restores its own chart and reads the rule; A receives no automatic note",
+      "A finishes its two local milestones while B remains unfinished; A ending does not reveal B record",
+      "B locates a historical record by RA 07h41m / declination +09 degrees; no naked four-digit password",
+      "Act II explicitly connects drive repairs to dome movement and telescope tracking",
+      "Both enter Act II with separate progress; physical cover and worn scan reveal only local clues, including during phone use",
+      "Real wheel drags assemble four independent shafts; running with the cover open or the wrong assembly fails",
+      "Dragging an installed wheel swaps its shaft; inspection remains opaque and visible throughout the state update",
+      "A restores the drive and B independently verifies full tooth counts and normalized 12:z ratios; no units-digit code",
+      "Act III describes backlit inspection of an already-developed historical plate and the interrupted observation evidence",
+      "Normal story enters the rebuilt third act from both second-act endings; B lights the damaged cabinet and A physically opens it and illuminates the recovered plate without a skip",
+      "B reconstructs the glass and exposes it after manual entry of the seal read from A; all three acts complete through actual player input",
+      "The normal story enters Act IV from both actual third-act endings; A gets only the device and B only the manual, with all prior progress preserved",
+      "The two isolated role saves remain independent: resetting A preserves B earlier repair and current fourth-act progress through B refresh",
+      "Both loaded games continue offline with private journals"
+    ],
+    "browserErrors": [],
+    "nativeFileLaunch": {
+      "status": "blocked-environment-policy",
+      "reason": "Managed Chromium blocks file:// with an organization policy page; policy was not changed. Actual standalone HTML was tested through localhost, including offline operation after loading."
+    },
+    "imageApiCalls": 0,
+    "humanBlindPlaytest": false,
+    "artStatus": "Acts II and III explicitly labelled interaction prototypes; cabinet/glass/hand-lamp prototype scene layers are not final art.",
+    "completionProtocol": "Each player completes their own milestones, then confirms with the other player through actual voice communication. A and B run in isolated browser contexts. The test reads A visible information and enters it through B controls; the games exchange no state."
+  },
+  "astronomyReference": {
+    "site": {
+      "latitudeDeg": 52,
+      "longitudeDeg": 0,
+      "heightM": 50,
+      "timezone": "UTC+00:00"
+    },
+    "timestampUTC": "1986-11-17T23:48:00Z",
+    "guides": [
+      {
+        "name": "织女星",
+        "hip": 91262,
+        "azimuth": 326,
+        "altitude": 9,
+        "azimuthUnrounded": 325.815675,
+        "altitudeUnrounded": 8.993638
+      },
+      {
+        "name": "天津四",
+        "hip": 102098,
+        "azimuth": 310,
+        "altitude": 27,
+        "azimuthUnrounded": 309.606667,
+        "altitudeUnrounded": 27.279088
+      },
+      {
+        "name": "五车二",
+        "hip": 24608,
+        "azimuth": 100,
+        "altitude": 73,
+        "azimuthUnrounded": 100.090725,
+        "altitudeUnrounded": 72.513986
+      }
+    ],
+    "conventions": "方位角北0°、向东顺时针；高度角从几何地平线向上。",
+    "limitations": "整数度游戏读数；不计大气折射。背景星点为示意，流星与时空事件为虚构。",
+    "astropyVersion": "7.2.0",
+    "catalogueSource": "https://raw.githubusercontent.com/astronexus/HYG-Database/main/hyg/CURRENT/hygdata_v41.csv",
+    "catalogueSHA256": "d9f69fd86bbf90a4e4d52b4c5c53eacfa6dfc0bfdef85bfd94f095e0bebe4ebd",
+    "properMotionIncluded": true,
+    "atmosphericRefraction": false
+  },
   "independentObservationsRegression": {
-    "version": "0.16.0",
+    "version": "0.17.0",
     "checksPassed": 13,
     "checks": [
       "Both actual offline role files enter the new Act IV in separate storage contexts, then run with browser networking disabled",
@@ -29,22 +160,23 @@
     "humanBlindPlaytest": false
   },
   "fifthActAndNormalContinuation": {
-    "version": "0.16.0",
-    "checksPassed": 19,
+    "version": "0.17.0",
+    "checksPassed": 20,
     "checks": [
       "Both actual embedded role HTMLs finish their last Act IV checkpoint and enter normal Act V through its physical continuation, preserving all prior records; current-act operation then runs offline in isolated contexts",
-      "A has no original installation readings before opening the dome; B has no exposure record before registering both plates, and neither role receives the counterpart instruments or progress",
+      "A has no original installation readings before opening its opaque cover; B has no exposure record before comparison and archive inspection, and neither role receives the counterpart instruments or progress",
       "The final camera cannot shoot through a closed dome, and a premature shutter attempt reveals no future exposure data",
-      "A reports the exact patrol-area name and B reads its matching window bearing and width directly; an uninformed confirmation fails without exposing the correct values",
+      "A reports the exact patrol-area name and B reads its matching historical window bearing and width directly; an uninformed confirmation fails without exposing the correct values",
       "Real circular dome dragging, a width rail and continuous held adjustment open the requested sky window and confirm only this task; B state and the camera remain unfinished",
-      "Only A newly illuminated original plates supply the two named installation angles and millimetre positions; its phone merely organizes local observations without writing B state",
+      "Only A backlit original plates after sliding the independent cover supply the two named installation angles and millimetre positions; its phone merely organizes local observations without writing B state",
       "B can mount, rotate, translate and independently confirm the second named plate first, following A original reference; the exposure sheet remains hidden",
       "A correct rotation with the wrong rail position fails only the current plate, retaining the other plate confirmation and pose without revealing the exposure record",
       "Reload restores each mounted plate, independent confirmation, exact orientation and rail position in the normal fifth-act save",
-      "Both correctly registered plates reveal B readable exposure time and duration; A receives neither the answer nor an automatic completion flag",
+      "Registering plates does not generate a time: B switches between two aligned historical frames, identifies the interrupted anomaly and reads the two-part archive title",
+      "After comparing both registered images, B physically opens the existing log envelope and reads its historical start time and duration; A receives neither the answer nor an automatic completion flag",
       "B can repeat one plate independently, retaining the other plate and the already-discovered exposure sheet",
       "An incorrectly timed photograph fails only the photography task and retains the opened dome and its original reference markings",
-      "Dragging both camera rails to B printed values captures the last meteor; the shutter animation keeps the closeup opaque and leaves the successful result on screen for the player",
+      "Dragging both camera rails to B printed values captures the fictional historical anomaly; the shutter animation keeps the closeup opaque and leaves the successful result on screen for the player",
       "Repeating A window task preserves its completed photograph and previously discovered references, then confirms independently again",
       "After reading the real A capture result, the test explicitly stamps B human call acknowledgement; the games never detect or synchronize remote completion",
       "The final door requires an actual handle drag; partial travel visibly opens the leaves, does not complete the chapter, and resumes after refresh",
@@ -56,17 +188,17 @@
     "httpErrors": [],
     "network": "Separate BrowserContexts and embedded role HTML files; networking disabled during current-act operation, enabled only for explicit reload persistence checks.",
     "progression": "Prior history is seeded at the final Act IV checkpoint, which is completed through actual input before normal-story continuation into Act V. No current fifth-act milestone or answer is injected.",
-    "cooperation": "The test reads B visible same-name forecast, enters A dome settings, reads A newly revealed original plate angles/rail positions, registers B plates, reads B newly revealed exposure record and enters A shutter settings. All gameplay uses real pointer, wheel, drag and held controls.",
+    "cooperation": "The test reads B visible same-name historical window log, enters A dome settings, slides A opaque original-record cover and reads installation angles/rail positions, registers B plates, switches both historical comparison frames, drags the matching archive envelope open and reads its existing exposure record and enters A shutter settings. All gameplay uses real pointer, wheel, drag and held controls.",
     "offlineLimit": "B final stamp is a human voice-call acknowledgement, not remote-state verification. Prior knowledge and lucky guesses remain possible in an offline game.",
     "imageApiCalls": 0,
     "artStatus": "Act V instruments, original plates and ending are explicitly labelled interaction prototypes; no final art claim.",
     "humanBlindPlaytest": false
   },
   "website": {
-    "version": "0.16.0",
+    "version": "0.17.0",
     "checksPassed": 8,
     "checks": [
-      "Web game bundles match the already-tested v0.16.0 independent offline builds byte for byte",
+      "Web game bundles match the already-tested v0.17.0 independent offline builds byte for byte",
       "Role selection and native scene previews load correctly below a project URL prefix",
       "Clicking A starts the actual Phaser game without a download; cabinet, pickup and reload persistence work",
       "Clicking B starts its own game; chart dragging and saved progress remain independent of A",
@@ -86,5 +218,8 @@
   "imageApiCalls": 0,
   "humanBlindPlaytest": false,
   "artStatus": "Acts II to V are explicitly labelled prototypes; final art remains to be produced.",
-  "nativeFileLaunch": "Not retested in this release: the managed browser previously blocked file://. Actual embedded HTMLs are tested through localhost with networking disabled after loading."
+  "nativeFileLaunch": {
+    "status": "blocked-environment-policy",
+    "reason": "Managed Chromium blocks file:// with an organization policy page; policy was not changed. Actual standalone HTML was tested through localhost, including offline operation after loading."
+  }
 }
