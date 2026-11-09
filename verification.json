@@ -1,39 +1,41 @@
 {
-  "version": "0.18.0",
-  "unitTestsPassed": 104,
+  "version": "0.19.0",
+  "unitTestsPassed": 105,
   "verifiedBuild": {
-    "version": "0.18.0",
+    "version": "0.19.0",
     "sources": {
       "index.html": "cbbeb6e143c74f66ca554aa2a64f56a306ba0b2ccb7b996b9218a7f45383b142",
-      "package.json": "df1e794429de3e8b561c3e1131e81283e0f5af18d4acba9c585631de00597192",
-      "package-lock.json": "1a1e0dab9c92685c8bb79604017717f9465237a51177925584d0a9279e0fef0f",
+      "package.json": "ba851f81d4d603d5bc662b72ce40f6081523dacacdda623775ca564cdf05777d",
+      "package-lock.json": "78662688bf8bdc7c17a792a20fb7a7cf288c363a47ce9cc573103e8904c8ccf5",
       "vite.config.js": "bc190acbfcba2fa7f767d44cc30d07d1149dc92359140e09def7831f41908525",
-      "scripts/build-coop.mjs": "cbe77a29f00f492b1b976590f4d6fbaaba1b52123b4270839dcc8d13cb6bee80",
-      "scripts/build-web.mjs": "c21a208af32577bdcf4c3296c08993e818c81cc45079244b92928e718c3754b7",
-      "web/index.html": "1f7d7596cea0e35edada8a61a8b5a47fd1fd4ebe33daed42669f46dfcfee249e",
-      "src/act-five-investigation.js": "0384cf68a437810c3955243504b91f3af7cfb521e97d4df3fc90c1c6ecfa0176",
-      "src/act-five.js": "ef9d60546e99667681a4c1900d221d2912a789a062e6a700291e998cbd5f0ef6",
-      "src/act-four.js": "af149f4925d43c3818be50a499260ab1af12289b3d27a0fec46a6fb7850e2aaa",
-      "src/act-three.js": "43213eef82bf6eda4ef7e92560634b655d5d57236f9af7537ea19b16db48197f",
-      "src/act-two.js": "c860a90a8264b2097d03fecba33d9bf29be5f8b0ef20d9729790392032e5b9b3",
-      "src/astronomy.js": "3b348c33e0a5065ba8af20cbefa5ec761851dca39139cadd152975da96b4b2c9",
+      "scripts/build-coop.mjs": "24ffeb9d2e813ae645d0e08f8fa76eff976b188e2ce9e08addf8e016653fc7e2",
+      "scripts/build-web.mjs": "8c0a76cc07d475d7501ce6701d0d9567005c35eb46b93576e28ed4b8159ba548",
+      "web/index.html": "a22fcc8f6ebcdafd843f5f37df48f8e5a0d768ec494f45f60e35d81ff58e29bf",
+      "src/act-five-investigation.js": "b42c2c4d61cc01f57e537a1f11e34165df58c774f76f8542a52c691e78ecbd9a",
+      "src/act-five.js": "830f6eb37738fc14371fe36f9ebb0637bb606a6dc4cefa123e7e3a2dc0531b74",
+      "src/act-four.js": "5c372ce552901fc96ea955ddd511f4ff46c0a5ad5d0b4d76d63e5978c88b66bc",
+      "src/act-one-story.js": "c1e7e2b9bdf2619227c023e32da1aef5313632ddf41a0cbe2936a12f1150ce1f",
+      "src/act-three.js": "a5fb77b95fb5e1fe024c08d567c49cd9749a8e2cd4cb1a15714685e6e944e6b8",
+      "src/act-two.js": "ae1987cd9babd07d34f9e3db1cbe5545e82c518338a75952d1448994c06e8910",
+      "src/astronomy.js": "524cdfd457a4477001109df2546e66cf3083eebf85590d52e312673e2d7daede",
       "src/audio.js": "6eefd8d11fa27cccbeabb4753f6c8aaf62a61bc853feb28f57b56661c6cd1ffa",
       "src/build-role.js": "0a3bb60ebaca458d455d6908ee88a153949a86cf8d5218d12cf17f7981bed0f2",
       "src/chapters.js": "58410ae286fb691d429c50d35a90949aa3218d52d819e775d0aeaa4aa53b1a87",
-      "src/content.js": "e2a92367eac8ee4bdc8963f33413814bf5e636f361904126c545cb74118825a2",
-      "src/finale.js": "508158175a3b5ccf3da3f130c19ad001ebcddc62c214bdb6bcbd860e5d12c9b4",
-      "src/game.js": "386a8ff7a307ad300efd493b1625f70f44f19cb142fe5dad2d110853595851d2",
+      "src/content.js": "1d57e62b94991adc5c99b7cc46f2aea90031cd47124bd572d10a3fb0fb9b21c1",
+      "src/finale.js": "22ee78f74c2a131fd59d706b6261459c27cf150c883426232428a7688e479341",
+      "src/game.js": "0a6f259c28b07b52e17da326a7885d24d1d199906fd087ec9b604668b72ae62b",
       "src/inscriptions.js": "a4891a4a4702d670481180385985c82970df9e7039c4db092d0d1f5286493c25",
-      "src/investigation.js": "53a3c51e077fca11dd089c467514f03a76a730201f6d4a1e8d092f7abb168799",
+      "src/interaction-guide.js": "578ddb60907a35a167e4e76faee93b5b5dd72b326f00519b7caefcdd6b96e0c3",
+      "src/investigation.js": "6191383e54f73eba5d657b981abf4ed9adc6352e9be7169d89a205d8906d6be4",
       "src/linear-control.js": "44eb3fb634ebcf38b51dd56fece0757a72b0ab00cea38c157ed066a4b0daf23d",
       "src/main.js": "1e5d69c1a20bca7cda777ffff4e113657836af360ef5ad5105a8dfb68f6ddffb",
       "src/mechanics.js": "484e6f2363d15ab47a8abc0ab795d2d8b79947f08a8cfd258f6a56e76ce59e98",
-      "src/optics.js": "e0956c742f61e5c6aa323c05144826067fae4d57550634ce6f02cdb59b4e2dd3",
+      "src/optics.js": "923153c5929c534ff3bc69f8a29124171e4a401706043492d25d42f993a22702",
       "src/rendering.js": "9c87656201da4c006e72a466103a90915de9d1f656c8f98bac2061d1e0ab1e2b",
       "src/rotary-control.js": "5f93a867471260427e342bef1a59f436b78a0d408d7ccae3a38a6a30450d4d00",
       "src/sky-reference.js": "3c262020146e084f54d3cf7a22e2f4451ce724ce34aa79c1f23dff9e19778cc3",
-      "src/state.js": "7bccdefb5803e6ea1219e125311f9c23513e6513695db3dd9327dfc22f7095ab",
-      "src/story.js": "e8e539e4631f4a3be197257b54d1ade71085c9466de21a8b691c58985d09aa58",
+      "src/state.js": "82b02efbb6c8bb955be8d4f253b1ce528503f65d7a0b472590a5e30031cd9ee4",
+      "src/story.js": "6c747223fc22886ef862e483edfed077460a78dd015d06640ab5edb149d177c8",
       "src/ui.js": "7b0e7ca94894e0923c8fdbf35a41151db9e2750c60d2fc5ef97574a0a1b2b7b3",
       "public/art/cabinet-closed.png": "3316f6aeb5eb8bd773485101e6777a607d89d8d882cce809634bf509831af67e",
       "public/art/cabinet-open.png": "62e849a19a71dc9541fcc36767c641a5c7c5f19ec8958bbee74e2b2d0bc890bf",
@@ -50,14 +52,182 @@
       "public/art/terminal.png": "b1ad498ed6f6ac1cfa754d97878c80672ad1a2a7ea44b44a160c8dc1f223aed1"
     },
     "bundles": {
-      "release/coop/Midnight-Observatory-A-1986.html": "84ce4a80cb2175b90d5a6dabcae714fe6ffc2938e0a0f15b8b41035935ebf4ec",
-      "release/coop/Midnight-Observatory-B-2066.html": "fd1a6604c0d93986b2851141a050cf15ee2cad26390b924707acd3f2357062b9",
-      "release/site/A/index.html": "8bb8745df58bbfb83e95e49fa1f299702dfd27ced61b2ee85bc74b592c0d35f0",
-      "release/site/B/index.html": "5750e9c543ff5b54445a2031317e564040644b6c30d73fd11ca751bf42847816",
-      "release/site/A/assets/index-DihLrgHG.js": "daa93eb05c38058ae11c250167958527d86bab2eaecae9e6bb078f1399ecce88",
-      "release/site/B/assets/index-ClS7z_R-.js": "47a8f8170bddc6556fbcf11239cfea547ff6b7ba59cc9bd22d2e5507f4312f3a"
+      "release/coop/Midnight-Observatory-A-1986.html": "6ae67d4bec55f2ec9a6cc6e18c67ae84e5651058f82b61ffc1db90fecb40fd95",
+      "release/coop/Midnight-Observatory-B-2066.html": "4ff9eb5cc15406a44ce060f836e1f8d9ee8e6959d2094dfc2356cab07881b2af",
+      "release/site/A/index.html": "505a1c5616347222827c5a394da474b125d5d6f4b9b2be6b3c210b310387b4db",
+      "release/site/B/index.html": "2585759acefcd5d28e9f36272ea9092b9d260cb33143f0ced5cfcff0f964a223",
+      "release/site/A/assets/index-CIqyFLH9.js": "766ebf795e460148bb6879be599fc13a243de4e79c0c73af7e899a57c605ff93",
+      "release/site/B/assets/index-BhUhqYza.js": "5ec92573db4d0546dd616a6b87dfff81d0765c930c163e4a955768f6fe8bfc6e"
     },
-    "buildCompletedAt": 1794257659.767617
+    "buildCompletedAt": 1794262979.995605
+  },
+  "browser": {
+    "flow": {
+      "version": "0.19.0",
+      "checksPassed": 20,
+      "checks": [
+        "Two actual HTML builds pin opposite roles despite URL overrides; no counterpart state or role-switch control",
+        "Act I states the common exit goal and the immediate purpose of identifying the same historical observation",
+        "A/B archives embed only their role asset manifests",
+        "A obtains and voices its observation without writing any B note or progress",
+        "B restores its own chart and reads the rule; A receives no automatic note",
+        "A finishes its two local milestones while B remains unfinished; A ending does not reveal B record",
+        "B locates a historical record by RA 07h41m / declination +09 degrees; no naked four-digit password",
+        "Act II explicitly connects drive repairs to dome movement and telescope tracking",
+        "Both enter Act II with separate progress; physical cover and worn scan reveal only local clues, including during phone use",
+        "Real wheel drags assemble four independent shafts; running with the cover open or the wrong assembly fails",
+        "Dragging an installed wheel swaps its shaft; inspection remains opaque and visible throughout the state update",
+        "A restores the drive and B independently verifies full tooth counts and normalized 12:z ratios; no units-digit code",
+        "Act III describes backlit inspection of an already-developed historical plate and the interrupted observation evidence",
+        "Normal story enters the rebuilt third act from both second-act endings; B lights the damaged cabinet and A physically opens it and illuminates the recovered plate without a skip",
+        "The final build reloads both exact browser-produced third-act saves independently, preserving the repaired lamp, A plate and manually opened B seal",
+        "B rotates all three real fragments, drags each into its matching slot and opens the dark slide fully; the third-act ending completes from the recovered save",
+        "Both players enter normal Act IV with earlier progress intact: A receives the apparatus and B only the manual",
+        "Each completed first-act ending can be replayed and skipped from later chapters, then return without changing any progress",
+        "Resetting A leaves B normal save and all restored earlier progress untouched",
+        "Both loaded final-build games continue offline with separate journals, with no browser exceptions or HTTP errors"
+      ],
+      "browserErrors": [],
+      "httpErrors": [],
+      "imageApiCalls": 0,
+      "humanBlindPlaytest": false,
+      "resumption": {
+        "reason": "The first 14 actual-input checks passed before the fragment hit-area correction. After that local correction, the exact browser-produced saves were reloaded in the final build and every remaining third-act interaction was performed through real pointer input.",
+        "checkpoint": "interrupted-prefix-report.json",
+        "sha256": "6227eaba36ec3d3932b7aeffbad53cc261df52845334c230c1c4a626511dc4b0",
+        "prefixChecks": 14,
+        "finalBuildContinuationChecks": 6
+      },
+      "nativeFileLaunch": {
+        "status": "not-repeated",
+        "reason": "Actual embedded HTMLs tested through localhost and after disabling networking. Direct file launch was blocked by managed browser policy in previous acceptance."
+      }
+    },
+    "clarity": {
+      "version": "0.19.0",
+      "checksPassed": 5,
+      "checks": [
+        "A opening has four readable beats, survives interrupted viewing, skips/replays without changing progress and stays dismissed after reload",
+        "A all five room guides toggle without puzzle changes; every item/workspace entrance is clickable and opens its own view",
+        "B opening has four readable beats, survives interrupted viewing, skips/replays without changing progress and stays dismissed after reload",
+        "B all five room guides toggle without puzzle changes; every item/workspace entrance is clickable and opens its own view",
+        "Both role games remain isolated, with no browser exceptions or failed local resources"
+      ],
+      "browserErrors": [],
+      "httpErrors": [],
+      "artStatus": "Hall paintings reused; opening/ending are labelled storyboard previews, no new final art or image API calls."
+    },
+    "finale": {
+      "version": "0.19.0",
+      "checksPassed": 17,
+      "checks": [
+        "Actual fixed-role HTMLs complete the final Act IV checkpoint and enter normal Act V with earlier records intact, then operate offline in separate contexts",
+        "The shared goal explains the investigation and the unfinished exit, while the camera cannot bypass its preparation",
+        "B has three independent witness clues and no photograph IDs or A imagery; neither role has a revealed exposure log",
+        "All eight negatives are actually inspected at high resolution; browser-pixel evidence plus B records and A loading note yield one ordered pair",
+        "Exclusion marks are reversible notes and do not hide or destroy evidence",
+        "A plausible pair with round stars and the correct field still fails on the contradictory gap; selection and other progress remain intact",
+        "Correct visual evidence in reverse order fails; physically swapping the two selected plates establishes the ordered attribution",
+        "A phone organizes only local conclusions; B receives no photo viewer, candidate traits or automatic counterpart progress",
+        "B physically places matching numbered sleeves and confirms its own hypothesis, with no partial-answer hints or automatic log reveal",
+        "Refresh preserves the selected photographs; a real envelope drag opens the log before any comparison; optional diagrams remain available afterwards",
+        "The existing dome still follows B same-name historical window log and confirms independently of the investigation",
+        "A sets the historical time through actual camera rails; failure keeps the solved investigation and the successful shutter stays in the opaque closeup",
+        "Both players can repeat only the evidence task without clearing the photograph, log or previously examined evidence",
+        "Human call acknowledgement and independently dragged doors retain the original reunion ending, including half-open-door save continuation",
+        "Fifth-act test entry and restart begin a fresh investigation while retaining normal completion and counterpart progress",
+        "High-density candidate picking and dedicated inspection remain aligned and returning from tests restores the normal ending",
+        "Actual browser loading migrates both old v0.17 completed normal saves, preserving raw v8 originals and the ending under the new v10 key"
+      ],
+      "browserErrors": [],
+      "httpErrors": [],
+      "visualEvidence": [
+        {
+          "id": 0,
+          "tracking": "points",
+          "upperStars": 3,
+          "gap": "above",
+          "segments": 2
+        },
+        {
+          "id": 1,
+          "tracking": "streaks",
+          "upperStars": 3,
+          "gap": "between",
+          "segments": 1
+        },
+        {
+          "id": 2,
+          "tracking": "points",
+          "upperStars": 3,
+          "gap": "between",
+          "segments": 1
+        },
+        {
+          "id": 3,
+          "tracking": "points",
+          "upperStars": 4,
+          "gap": "between",
+          "segments": 2
+        },
+        {
+          "id": 4,
+          "tracking": "points",
+          "upperStars": 3,
+          "gap": "above",
+          "segments": 1
+        },
+        {
+          "id": 5,
+          "tracking": "points",
+          "upperStars": 3,
+          "gap": "between",
+          "segments": 2
+        },
+        {
+          "id": 6,
+          "tracking": "streaks",
+          "upperStars": 3,
+          "gap": "between",
+          "segments": 2
+        },
+        {
+          "id": 7,
+          "tracking": "points",
+          "upperStars": 4,
+          "gap": "between",
+          "segments": 1
+        }
+      ],
+      "validation": "Current-act solutions were derived from actual screenshot pixels plus visible B night records and A loading note. Inputs use real pointer clicks, drags, wheel, shutter, stamp and doors. Only earlier-chapter history and separate legacy-migration fixtures are seeded.",
+      "network": "Four disjoint BrowserContexts. Actual fixed-role embedded HTMLs, current-act operation offline except explicit save reload checks.",
+      "cooperation": "A owns photographs and loading note; B owns night records and opaque sleeves. No counterpart storage or automatic progress. Archive reconstruction is an explicitly labelled diagram, not restoration of B faded silver layers.",
+      "offlineLimit": "Previously known answers or lucky guesses remain possible in an offline game.",
+      "humanBlindPlaytest": false,
+      "imageApiCalls": 0,
+      "artStatus": "Evidence images and new archive interface are clearly labelled prototypes, not final production art."
+    },
+    "website": {
+      "version": "0.19.0",
+      "checksPassed": 8,
+      "checks": [
+        "Web game bundles match the already-tested v0.19.0 independent offline builds byte for byte",
+        "Role selection and native scene previews load correctly below a project URL prefix",
+        "Clicking A starts the actual Phaser game without a download; cabinet, pickup and reload persistence work",
+        "Clicking B starts its own game; chart dragging and saved progress remain independent of A",
+        "Narrow-screen menu stacks both roles without horizontal overflow and its links still open the game",
+        "Landing chapter selector exposes all ten role/chapter links and stays within a narrow viewport",
+        "An actual landing-page fifth-act link opens B chapter testing directly without downloading",
+        "All HTML, scripts and images load from the same site; no ZIP download, external CDN or browser exception"
+      ],
+      "gameBundleParity": {
+        "A": true,
+        "B": true
+      },
+      "browserErrors": [],
+      "httpErrors": [],
+      "validation": "Actual hosted-file structure tested on localhost beneath a project URL prefix. Public deployment status is verified separately through the GitHub Pages workflow."
+    }
   },
   "astronomyReference": {
     "site": {
@@ -101,179 +271,8 @@
     "properMotionIncluded": true,
     "atmosphericRefraction": false
   },
-  "independentObservationsRegression": {
-    "version": "0.18.0",
-    "checksPassed": 13,
-    "checks": [
-      "Both actual offline role files enter the new Act IV in separate storage contexts, then run with browser networking disabled",
-      "A sees a named observation and its instrument, B sees the matching paper chart; the old circles, four-mirror rules and whole-device check are absent",
-      "An uninformed guide confirmation fails only that task, without requiring other tasks or advancing their progress",
-      "Each task asks B for its own named record: a star-chart pointing, a double-star measurement, and film/mount settings with explicit units",
-      "Following B filming data confirms photography first while both other tasks remain unsolved, and the inspection stays visible through the shutter animation",
-      "Dragging the finder crosshair and fine-adjusting B chart coordinates independently locks the requested guide star and preserves photography",
-      "A single task can be repeated and confirmed again without clearing another successful task or its settings",
-      "A double-star mismatch identifies only the current task and does not undo either completed observation",
-      "Refresh retains the same task sheets, independent completion flags, current measurements and failed-attempt counts",
-      "The measuring arm records B double-star direction and separation; its own successful confirmation finishes the third independent observation",
-      "B records an explicit human acknowledgement of the three reports, with no automatic remote state verification",
-      "A can reopen a single observation after completion, restart only this chapter, or return to the separate normal story; B remains independent",
-      "Finder controls and the reference chart remain aligned and readable on high-density screens"
-    ],
-    "browserErrors": [],
-    "httpErrors": [],
-    "network": "Separate BrowserContexts; both actual embedded role HTMLs operated with networking disabled. A temporarily reloaded online only for save testing.",
-    "progression": "Only chapter skips prepare preceding acts. Current-act answers are obtained by reading B printed chart/catalog/film and mount table, then entered through real A dragging, wheel and physical confirmation input.",
-    "cooperation": "A has task/equipment names and unlabelled fields, B has requested reference data and no live instrument. Each of the three tasks confirms separately and can be repeated without resetting the other two.",
-    "offlineLimit": "Information dependency does not prove that another offline computer was actually used; prior knowledge and lucky guesses remain possible.",
-    "imageApiCalls": 0,
-    "humanBlindPlaytest": false
-  },
-  "fifthActAndNormalContinuation": {
-    "version": "0.18.0",
-    "checksPassed": 17,
-    "checks": [
-      "Actual fixed-role HTMLs complete the final Act IV checkpoint and enter normal Act V with earlier records intact, then operate offline in separate contexts",
-      "The shared goal explains the investigation and the unfinished exit, while the camera cannot bypass its preparation",
-      "B has three independent witness clues and no photograph IDs or A imagery; neither role has a revealed exposure log",
-      "All eight negatives are actually inspected at high resolution; browser-pixel evidence plus B records and A loading note yield one ordered pair",
-      "Exclusion marks are reversible notes and do not hide or destroy evidence",
-      "A plausible pair with round stars and the correct field still fails on the contradictory gap; selection and other progress remain intact",
-      "Correct visual evidence in reverse order fails; physically swapping the two selected plates establishes the ordered attribution",
-      "A phone organizes only local conclusions; B receives no photo viewer, candidate traits or automatic counterpart progress",
-      "B physically places matching numbered sleeves and confirms its own hypothesis, with no partial-answer hints or automatic log reveal",
-      "Refresh preserves the hypothesis; both reconstructed phases and a real envelope drag are needed to access the existing historical exposure log",
-      "The existing dome still follows B same-name historical window log and confirms independently of the investigation",
-      "A sets the historical time through actual camera rails; failure keeps the solved investigation and the successful shutter stays in the opaque closeup",
-      "Both players can repeat only the evidence task without clearing the photograph, log or previously examined evidence",
-      "Human call acknowledgement and independently dragged doors retain the original reunion ending, including half-open-door save continuation",
-      "Fifth-act test entry and restart begin a fresh investigation while retaining normal completion and counterpart progress",
-      "High-density candidate picking and dedicated inspection remain aligned and returning from tests restores the normal ending",
-      "Actual browser loading separately verifies both v0.17 completed normal saves in clean contexts, preserving raw v8 originals and the ending under the new v9 key"
-    ],
-    "browserErrors": [],
-    "httpErrors": null,
-    "legacyMigration": {
-      "version": "0.18.0",
-      "roles": [
-        {
-          "role": "A",
-          "completed": true,
-          "revision": 3,
-          "rawV8Preserved": true,
-          "browserErrors": [],
-          "httpErrors": []
-        },
-        {
-          "role": "B",
-          "completed": true,
-          "revision": 3,
-          "rawV8Preserved": true,
-          "browserErrors": [],
-          "httpErrors": []
-        }
-      ],
-      "browserErrors": [],
-      "httpErrors": []
-    },
-    "visualEvidence": [
-      {
-        "id": 0,
-        "tracking": "points",
-        "upperStars": 3,
-        "gap": "above",
-        "segments": 2
-      },
-      {
-        "id": 1,
-        "tracking": "streaks",
-        "upperStars": 3,
-        "gap": "between",
-        "segments": 1
-      },
-      {
-        "id": 2,
-        "tracking": "points",
-        "upperStars": 3,
-        "gap": "between",
-        "segments": 1
-      },
-      {
-        "id": 3,
-        "tracking": "points",
-        "upperStars": 4,
-        "gap": "between",
-        "segments": 2
-      },
-      {
-        "id": 4,
-        "tracking": "points",
-        "upperStars": 3,
-        "gap": "above",
-        "segments": 1
-      },
-      {
-        "id": 5,
-        "tracking": "points",
-        "upperStars": 3,
-        "gap": "between",
-        "segments": 2
-      },
-      {
-        "id": 6,
-        "tracking": "streaks",
-        "upperStars": 3,
-        "gap": "between",
-        "segments": 2
-      },
-      {
-        "id": 7,
-        "tracking": "points",
-        "upperStars": 4,
-        "gap": "between",
-        "segments": 1
-      }
-    ],
-    "validation": "The complete normal Act IV checkpoint to Act V interaction, eight photograph inspections, wrong hypotheses, full capture, retry, doors, chapter isolation and high-density controls passed on the exact shipped build. A CDP transport timeout occurred during subsequent legacy loading; that remaining check passed separately with completed gameplay tabs released. No application code changed between these runs.",
-    "coreRunEvidence": {
-      "sha256": "0f7547d6ad3effb612a1c1fe813a947f35367f14703264ad0b09d70830fa849b",
-      "passedGameplayChecks": 16,
-      "subsequentTransportError": "Error: CDP timeout: Runtime.evaluate",
-      "resolvedBy": "Release completed browser tabs; use fresh migration contexts and a 45s startup evaluation timeout."
-    },
-    "httpVerification": "The interrupted core run ended before its final network-array assertion. Legacy HTTP checks and a separate full website asset-loading test provide transport verification.",
-    "network": "Independent BrowserContexts. Actual role-specific embedded HTMLs loaded via localhost and current-act play operated offline, except explicit persistence reloads.",
-    "cooperation": "A has complete photographs and loading note; B has night records and opaque sleeves. Hypotheses are derived from actual screenshot pixels and visible records, never from the validator or injected current-act solutions.",
-    "offlineLimit": "Previously known answers or lucky guesses remain possible in an offline game.",
-    "humanBlindPlaytest": false,
-    "imageApiCalls": 0,
-    "artStatus": "Clearly labelled prototype evidence images and interfaces; final art remains to be produced."
-  },
-  "website": {
-    "version": "0.18.0",
-    "checksPassed": 8,
-    "checks": [
-      "Web game bundles match the already-tested v0.18.0 independent offline builds byte for byte",
-      "Role selection and native scene previews load correctly below a project URL prefix",
-      "Clicking A starts the actual Phaser game without a download; cabinet, pickup and reload persistence work",
-      "Clicking B starts its own game; chart dragging and saved progress remain independent of A",
-      "Narrow-screen menu stacks both roles without horizontal overflow and its links still open the game",
-      "Landing chapter selector exposes all ten role/chapter links and stays within a narrow viewport",
-      "An actual landing-page fifth-act link opens B chapter testing directly without downloading",
-      "All HTML, scripts and images load from the same site; no ZIP download, external CDN or browser exception"
-    ],
-    "gameBundleParity": {
-      "A": true,
-      "B": true
-    },
-    "browserErrors": [],
-    "httpErrors": [],
-    "validation": "Actual hosted-file structure tested on localhost beneath a project URL prefix. Public deployment status is verified separately through the GitHub Pages workflow."
-  },
   "imageApiCalls": 0,
   "humanBlindPlaytest": false,
-  "artStatus": "Acts II to V are explicitly labelled prototypes; final art remains to be produced.",
-  "nativeFileLaunch": {
-    "status": "not-repeated",
-    "reason": "Managed browser blocked file:// in v0.17. Actual embedded HTMLs tested on localhost with networking disabled after loading."
-  }
+  "artStatus": "Hall paintings reused. Opening and first-act ending are labelled storyboard previews. Acts II-V remain labelled art prototypes.",
+  "publicationValidation": "Exact final game files tested on localhost. Public deployment is verified separately using the matching GitHub Pages commit."
 }
