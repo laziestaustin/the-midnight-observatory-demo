@@ -1,8 +1,8 @@
 {
-  "version": "0.15.0",
-  "unitTestsPassed": 69,
-  "independentObservations": {
-    "version": "0.15.0",
+  "version": "0.16.0",
+  "unitTestsPassed": 95,
+  "independentObservationsRegression": {
+    "version": "0.16.0",
     "checksPassed": 13,
     "checks": [
       "Both actual offline role files enter the new Act IV in separate storage contexts, then run with browser networking disabled",
@@ -28,47 +28,51 @@
     "imageApiCalls": 0,
     "humanBlindPlaytest": false
   },
-  "normalProgressionIntoActFour": {
-    "version": "0.15.0",
-    "checksPassed": 15,
+  "fifthActAndNormalContinuation": {
+    "version": "0.16.0",
+    "checksPassed": 19,
     "checks": [
-      "Two actual HTML builds pin opposite roles despite URL overrides; no counterpart state or role-switch control",
-      "A/B archives embed only their role asset manifests",
-      "A obtains and voices its observation without writing any B note or progress",
-      "B restores its own chart and reads the rule; A receives no automatic note",
-      "A finishes its two local milestones while B remains unfinished; A ending does not reveal B record",
-      "B locates a historical record by RA 07h41m / declination +09 degrees; no naked four-digit password",
-      "Both enter Act II with separate progress; physical cover and worn scan reveal only local clues, including during phone use",
-      "Real wheel drags assemble four independent shafts; running with the cover open or the wrong assembly fails",
-      "Dragging an installed wheel swaps its shaft; inspection remains opaque and visible throughout the state update",
-      "A restores the drive and B independently verifies full tooth counts and normalized 12:z ratios; no units-digit code",
-      "Normal story enters the rebuilt third act from both second-act endings; B lights the damaged cabinet and A physically opens it and illuminates the recovered plate without a skip",
-      "B reconstructs the glass and exposes it after manual entry of the seal read from A; all three acts complete through actual player input",
-      "The normal story enters Act IV from both actual third-act endings; A gets only the device and B only the manual, with all prior progress preserved",
-      "The two isolated role saves remain independent: resetting A preserves B earlier repair and current fourth-act progress through B refresh",
-      "Both loaded games continue offline with private journals"
+      "Both actual embedded role HTMLs finish their last Act IV checkpoint and enter normal Act V through its physical continuation, preserving all prior records; current-act operation then runs offline in isolated contexts",
+      "A has no original installation readings before opening the dome; B has no exposure record before registering both plates, and neither role receives the counterpart instruments or progress",
+      "The final camera cannot shoot through a closed dome, and a premature shutter attempt reveals no future exposure data",
+      "A reports the exact patrol-area name and B reads its matching window bearing and width directly; an uninformed confirmation fails without exposing the correct values",
+      "Real circular dome dragging, a width rail and continuous held adjustment open the requested sky window and confirm only this task; B state and the camera remain unfinished",
+      "Only A newly illuminated original plates supply the two named installation angles and millimetre positions; its phone merely organizes local observations without writing B state",
+      "B can mount, rotate, translate and independently confirm the second named plate first, following A original reference; the exposure sheet remains hidden",
+      "A correct rotation with the wrong rail position fails only the current plate, retaining the other plate confirmation and pose without revealing the exposure record",
+      "Reload restores each mounted plate, independent confirmation, exact orientation and rail position in the normal fifth-act save",
+      "Both correctly registered plates reveal B readable exposure time and duration; A receives neither the answer nor an automatic completion flag",
+      "B can repeat one plate independently, retaining the other plate and the already-discovered exposure sheet",
+      "An incorrectly timed photograph fails only the photography task and retains the opened dome and its original reference markings",
+      "Dragging both camera rails to B printed values captures the last meteor; the shutter animation keeps the closeup opaque and leaves the successful result on screen for the player",
+      "Repeating A window task preserves its completed photograph and previously discovered references, then confirms independently again",
+      "After reading the real A capture result, the test explicitly stamps B human call acknowledgement; the games never detect or synchronize remote completion",
+      "The final door requires an actual handle drag; partial travel visibly opens the leaves, does not complete the chapter, and resumes after refresh",
+      "Both players physically open their own final door and reach the shared-starfield reunion ending independently, including the original story final line",
+      "All five chapters are independently selectable; fifth-act testing and restart leave the completed normal story and the other player untouched",
+      "High-density scene controls stay aligned and readable, and returning from fifth-act testing restores the completed normal finale"
     ],
     "browserErrors": [],
-    "nativeFileLaunch": {
-      "status": "blocked-environment-policy",
-      "reason": "Managed Chromium blocks file:// with an organization policy page; policy was not changed. Actual standalone HTML was tested through localhost, including offline operation after loading."
-    },
+    "httpErrors": [],
+    "network": "Separate BrowserContexts and embedded role HTML files; networking disabled during current-act operation, enabled only for explicit reload persistence checks.",
+    "progression": "Prior history is seeded at the final Act IV checkpoint, which is completed through actual input before normal-story continuation into Act V. No current fifth-act milestone or answer is injected.",
+    "cooperation": "The test reads B visible same-name forecast, enters A dome settings, reads A newly revealed original plate angles/rail positions, registers B plates, reads B newly revealed exposure record and enters A shutter settings. All gameplay uses real pointer, wheel, drag and held controls.",
+    "offlineLimit": "B final stamp is a human voice-call acknowledgement, not remote-state verification. Prior knowledge and lucky guesses remain possible in an offline game.",
     "imageApiCalls": 0,
-    "humanBlindPlaytest": false,
-    "artStatus": "Acts II and III explicitly labelled interaction prototypes; cabinet/glass/hand-lamp prototype scene layers are not final art.",
-    "completionProtocol": "Each player completes their own milestones, then confirms with the other player through actual voice communication. A and B run in isolated browser contexts. The test reads A visible information and enters it through B controls; the games exchange no state."
+    "artStatus": "Act V instruments, original plates and ending are explicitly labelled interaction prototypes; no final art claim.",
+    "humanBlindPlaytest": false
   },
   "website": {
-    "version": "0.15.0",
+    "version": "0.16.0",
     "checksPassed": 8,
     "checks": [
-      "Web game bundles match the already-tested v0.15.0 independent offline builds byte for byte",
+      "Web game bundles match the already-tested v0.16.0 independent offline builds byte for byte",
       "Role selection and native scene previews load correctly below a project URL prefix",
       "Clicking A starts the actual Phaser game without a download; cabinet, pickup and reload persistence work",
       "Clicking B starts its own game; chart dragging and saved progress remain independent of A",
       "Narrow-screen menu stacks both roles without horizontal overflow and its links still open the game",
-      "Landing chapter selector exposes all eight role/chapter links and stays within a narrow viewport",
-      "An actual landing-page fourth-act link opens B chapter testing directly without downloading",
+      "Landing chapter selector exposes all ten role/chapter links and stays within a narrow viewport",
+      "An actual landing-page fifth-act link opens B chapter testing directly without downloading",
       "All HTML, scripts and images load from the same site; no ZIP download, external CDN or browser exception"
     ],
     "gameBundleParity": {
@@ -81,5 +85,6 @@
   },
   "imageApiCalls": 0,
   "humanBlindPlaytest": false,
-  "artStatus": "Acts II to IV are explicitly labelled prototypes; final art remains to be produced."
+  "artStatus": "Acts II to V are explicitly labelled prototypes; final art remains to be produced.",
+  "nativeFileLaunch": "Not retested in this release: the managed browser previously blocked file://. Actual embedded HTMLs are tested through localhost with networking disabled after loading."
 }
