@@ -1,57 +1,35 @@
 {
-  "version": "0.13.0",
-  "unitTestsPassed": 66,
-  "fourthActManualCooperation": {
-    "version": "0.13.0",
-    "checksPassed": 12,
+  "version": "0.14.0",
+  "unitTestsPassed": 68,
+  "wholeExposureCooperation": {
+    "version": "0.14.0",
+    "checksPassed": 13,
     "checks": [
-      "Actual independent role HTMLs enter Act IV in separate storage contexts and continue with browser networking disabled",
-      "A sees device controls and local readings only; B sees paper rules only, with no live A device configuration or controls",
-      "A cannot bypass preflight: a whole-module failure preserves state and the mirror controls remain locked",
-      "The driver reads A visible model/signal, looks up B visible procedure, and operates the actual branch and filter controls to unlock the mirrors",
-      "New target-frame information requires the next manual page; real carriage dragging and mirror rotation produce the physical four-reflection path, while a wrong full setup fails",
-      "Refresh preserves the chosen hardware configuration and locked-in progress rather than rerolling a new answer",
-      "Releasing the held plunger outside the game canvas still submits once and clears the pressed state",
-      "B must hear the newly revealed echo count; releasing in the wrong live sector triggers protection and retains the finished mirror setup for retry",
-      "A completes by physically holding and releasing on B instructed sector; this does not manufacture a completed B state",
-      "B finishes with an explicitly labelled manual call acknowledgement, not a simulated remote verification or a second device interface",
-      "Four chapter entries, per-chapter restart, private partner progress and return to the normal story remain independent",
-      "The paper manual and saved acknowledgement remain intact at high display density"
+      "Actual independent role HTMLs run in isolated storage contexts and continue offline",
+      "A sees controls and physical observations; B sees paper rules with no live A data or device controls",
+      "Every device panel is freely available, and the old preflight/beam answer-check buttons are gone",
+      "Even power and filter settings read correctly from B do not bank any partial completion",
+      "Four stamped compensation marks are reported to B and matched to actual printed cardinal directions; a connected ray still does not pass the act",
+      "The old A-only visual shortcut is rejected: a half-turn preserves the ray but the correct release still fails, with no partial result and no setting loss",
+      "Refresh preserves the same observations, selected parameters and unresolved whole-device state without rerolling",
+      "A power mismatch gets exactly the same whole-device failure as a compensation mismatch; no component is identified as correct",
+      "Wrong release gives the same result with all selected parameters retained; releasing outside the canvas submits once and clears the press",
+      "Only the complete manual-specified power, filter, rail, four notches and release jointly produce successful whole exposure",
+      "B explicitly acknowledges the voice report by hand; A success does not automatically complete or modify B",
+      "Chapter restart and normal-story return keep A tests and the already-completed independent B save separate",
+      "Actual notch controls and the new compensation table remain usable and sharp at high display density"
     ],
     "browserErrors": [],
     "httpErrors": [],
-    "network": "Two isolated contexts; actual embedded role HTMLs loaded once then operated offline. A temporarily reloaded online only to check persistence.",
-    "progression": "Only player-visible chapter skips prepare earlier acts; all fourth-act progress uses real pointer input. Answers are read from A visible device text and B visible paper rules.",
-    "completionProtocol": "A device success; B explicitly acknowledges the voice report by hand. Neither program verifies remote state.",
-    "imageApiCalls": 0,
-    "humanBlindPlaytest": false
-  },
-  "thirdActRegressionAndTransition": {
-    "version": "0.13.0",
-    "checksPassed": 10,
-    "checks": [
-      "Two actual standalone role builds run in separate browser contexts with disjoint storage; both are then disconnected from the network",
-      "B can collect and inspect the glass, but the physical closed layer blocks installation and default-value unlocking; the answer is absent from both early UIs",
-      "A must actually recover, mount and fully illuminate the plate; inventory inspection, mounting alone and partial light do not reveal the calibration",
-      "Only the illuminated A plate reveals the complete time/direction readout; isolated B receives no automatic value or progress change",
-      "The completed third-act physical door opens the fourth-act test, and returning through the chapter menu preserves the already-read plate",
-      "The human-read A values are entered only through B physical wheel/drag controls: a partial wrong code fails as a whole, and the correct code animates the cover open offline",
-      "After the information seal opens, B can install and freely adjust glass; only the whole image is judged, and the completed message works with both pages offline",
-      "Restarting independent A cannot revoke or modify B already received information or completed local save; no partner storage is shared",
-      "B keeps its own unlocked/completed save through refresh; restarting B resets only its own layer and restores the information gate",
-      "Tool use, physical catch dragging and the new seal knobs remain aligned on DPR 2 displays"
-    ],
-    "browserErrors": [],
-    "httpErrors": [],
-    "usedProgressionFixtures": false,
-    "browserContexts": "Two separate storage/communication partitions, simulating independent computers.",
-    "network": "Both role builds loaded once, then all puzzle input and manual clue transfer performed with browser networking disabled; temporary online reload tests only save persistence.",
-    "communication": "Only test-driver human-style reading A visible text and entering B knobs. No game-to-game communication.",
+    "network": "Independent embedded role files in separate BrowserContexts. Networking disabled during puzzle play; temporary A reload checks persistence.",
+    "progression": "Only chapter skips prepare earlier acts. Real pointer input reads A observations and B printed tables; no hidden solution function or writable progression API.",
+    "cooperationEvidence": "Connected ray with a wrong 180-degree compensation setting is rejected; correct power alone never banks progress; power, notch and timing mismatches return the identical whole-device message and preserve settings.",
+    "offlineLimit": "No proof of remote B actions; this is information dependency, not a claim of preventing guesses, prior knowledge or source inspection.",
     "imageApiCalls": 0,
     "humanBlindPlaytest": false
   },
   "normalProgressionIntoActFour": {
-    "version": "0.13.0",
+    "version": "0.14.0",
     "checksPassed": 15,
     "checks": [
       "Two actual HTML builds pin opposite roles despite URL overrides; no counterpart state or role-switch control",
@@ -81,10 +59,10 @@
     "completionProtocol": "Each player completes their own milestones, then confirms with the other player through actual voice communication. A and B run in isolated browser contexts. The test reads A visible information and enters it through B controls; the games exchange no state."
   },
   "website": {
-    "version": "0.13.0",
+    "version": "0.14.0",
     "checksPassed": 8,
     "checks": [
-      "Web game bundles match the already-tested v0.13.0 independent offline builds byte for byte",
+      "Web game bundles match the already-tested v0.14.0 independent offline builds byte for byte",
       "Role selection and native scene previews load correctly below a project URL prefix",
       "Clicking A starts the actual Phaser game without a download; cabinet, pickup and reload persistence work",
       "Clicking B starts its own game; chart dragging and saved progress remain independent of A",
