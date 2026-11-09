@@ -1,35 +1,35 @@
 {
-  "version": "0.14.0",
-  "unitTestsPassed": 68,
-  "wholeExposureCooperation": {
-    "version": "0.14.0",
+  "version": "0.15.0",
+  "unitTestsPassed": 69,
+  "independentObservations": {
+    "version": "0.15.0",
     "checksPassed": 13,
     "checks": [
-      "Actual independent role HTMLs run in isolated storage contexts and continue offline",
-      "A sees controls and physical observations; B sees paper rules with no live A data or device controls",
-      "Every device panel is freely available, and the old preflight/beam answer-check buttons are gone",
-      "Even power and filter settings read correctly from B do not bank any partial completion",
-      "Four stamped compensation marks are reported to B and matched to actual printed cardinal directions; a connected ray still does not pass the act",
-      "The old A-only visual shortcut is rejected: a half-turn preserves the ray but the correct release still fails, with no partial result and no setting loss",
-      "Refresh preserves the same observations, selected parameters and unresolved whole-device state without rerolling",
-      "A power mismatch gets exactly the same whole-device failure as a compensation mismatch; no component is identified as correct",
-      "Wrong release gives the same result with all selected parameters retained; releasing outside the canvas submits once and clears the press",
-      "Only the complete manual-specified power, filter, rail, four notches and release jointly produce successful whole exposure",
-      "B explicitly acknowledges the voice report by hand; A success does not automatically complete or modify B",
-      "Chapter restart and normal-story return keep A tests and the already-completed independent B save separate",
-      "Actual notch controls and the new compensation table remain usable and sharp at high display density"
+      "Both actual offline role files enter the new Act IV in separate storage contexts, then run with browser networking disabled",
+      "A sees a named observation and its instrument, B sees the matching paper chart; the old circles, four-mirror rules and whole-device check are absent",
+      "An uninformed guide confirmation fails only that task, without requiring other tasks or advancing their progress",
+      "Each task asks B for its own named record: a star-chart pointing, a double-star measurement, and film/mount settings with explicit units",
+      "Following B filming data confirms photography first while both other tasks remain unsolved, and the inspection stays visible through the shutter animation",
+      "Dragging the finder crosshair and fine-adjusting B chart coordinates independently locks the requested guide star and preserves photography",
+      "A single task can be repeated and confirmed again without clearing another successful task or its settings",
+      "A double-star mismatch identifies only the current task and does not undo either completed observation",
+      "Refresh retains the same task sheets, independent completion flags, current measurements and failed-attempt counts",
+      "The measuring arm records B double-star direction and separation; its own successful confirmation finishes the third independent observation",
+      "B records an explicit human acknowledgement of the three reports, with no automatic remote state verification",
+      "A can reopen a single observation after completion, restart only this chapter, or return to the separate normal story; B remains independent",
+      "Finder controls and the reference chart remain aligned and readable on high-density screens"
     ],
     "browserErrors": [],
     "httpErrors": [],
-    "network": "Independent embedded role files in separate BrowserContexts. Networking disabled during puzzle play; temporary A reload checks persistence.",
-    "progression": "Only chapter skips prepare earlier acts. Real pointer input reads A observations and B printed tables; no hidden solution function or writable progression API.",
-    "cooperationEvidence": "Connected ray with a wrong 180-degree compensation setting is rejected; correct power alone never banks progress; power, notch and timing mismatches return the identical whole-device message and preserve settings.",
-    "offlineLimit": "No proof of remote B actions; this is information dependency, not a claim of preventing guesses, prior knowledge or source inspection.",
+    "network": "Separate BrowserContexts; both actual embedded role HTMLs operated with networking disabled. A temporarily reloaded online only for save testing.",
+    "progression": "Only chapter skips prepare preceding acts. Current-act answers are obtained by reading B printed chart/catalog/film and mount table, then entered through real A dragging, wheel and physical confirmation input.",
+    "cooperation": "A has task/equipment names and unlabelled fields, B has requested reference data and no live instrument. Each of the three tasks confirms separately and can be repeated without resetting the other two.",
+    "offlineLimit": "Information dependency does not prove that another offline computer was actually used; prior knowledge and lucky guesses remain possible.",
     "imageApiCalls": 0,
     "humanBlindPlaytest": false
   },
   "normalProgressionIntoActFour": {
-    "version": "0.14.0",
+    "version": "0.15.0",
     "checksPassed": 15,
     "checks": [
       "Two actual HTML builds pin opposite roles despite URL overrides; no counterpart state or role-switch control",
@@ -59,10 +59,10 @@
     "completionProtocol": "Each player completes their own milestones, then confirms with the other player through actual voice communication. A and B run in isolated browser contexts. The test reads A visible information and enters it through B controls; the games exchange no state."
   },
   "website": {
-    "version": "0.14.0",
+    "version": "0.15.0",
     "checksPassed": 8,
     "checks": [
-      "Web game bundles match the already-tested v0.14.0 independent offline builds byte for byte",
+      "Web game bundles match the already-tested v0.15.0 independent offline builds byte for byte",
       "Role selection and native scene previews load correctly below a project URL prefix",
       "Clicking A starts the actual Phaser game without a download; cabinet, pickup and reload persistence work",
       "Clicking B starts its own game; chart dragging and saved progress remain independent of A",
