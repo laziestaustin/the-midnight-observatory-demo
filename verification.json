@@ -1,33 +1,41 @@
 {
-  "version": "0.20.0",
-  "unitTestsPassed": 116,
+  "version": "0.21.0",
+  "checksPassed": {
+    "unit": 124,
+    "exploration": 11,
+    "finalGate": 8,
+    "website": 8,
+    "offline": 3,
+    "browserTotal": 30
+  },
   "verifiedBuild": {
-    "version": "0.20.0",
+    "version": "0.21.0",
     "sources": {
       "index.html": "cbbeb6e143c74f66ca554aa2a64f56a306ba0b2ccb7b996b9218a7f45383b142",
-      "package.json": "403256374a47949d8afe9069ac4a8f7aa219f5f7dd5b674f30c27cfb2a4c68ed",
-      "package-lock.json": "efccc11f4e20072413771bd0b0d2873cd7fd28903daec645f151ef9cc4e32031",
+      "package.json": "d2be375c6136956acbf314d7972831aab06391aeb4ad388b8d9dc442c4ec16a2",
+      "package-lock.json": "ff6411aa201321e3464f4fa711361a06dd14a7b90b9a1eebc6b9207ce6f6673a",
       "vite.config.js": "bc190acbfcba2fa7f767d44cc30d07d1149dc92359140e09def7831f41908525",
-      "scripts/build-coop.mjs": "3db666b7ef4d70dce0fc2d7a2e12e51bf11901f800a9ea1f0a494c93e7c338ec",
-      "scripts/build-web.mjs": "f86767d7980da4b81a2d761cfc54e08158ad1d0c7299e0bf22b01beb6ff43ff5",
-      "web/index.html": "b7989b8246348f5c83eff9fe0c434a4b6d4b7079a67508938d71137d678e799a",
+      "scripts/build-coop.mjs": "07169a8b80a9b6df11058ce287124da11bc6e7c69d468adcf46d36dce34b2cda",
+      "scripts/build-web.mjs": "246cc05e8efac7b3ce402222bf2b68345785f09eef471d8c29bbac068e62952d",
+      "web/index.html": "de4cbcad616d7004b0bd1a44f3d0aeccf10d9f54854f3001bb8e462918026e1f",
       "src/act-five-investigation.js": "bc8081b5d587f88bb66a93c4980fc916007baec669addd5f38c7b89583540885",
-      "src/act-five.js": "834bd94ef7b7e8bd92a707e006598d9bfc84bd76cc01adccd15daa391abcfdc4",
-      "src/act-four.js": "07aa90485a546c8c6bbd16a76435cc4ca8dce06e6374232ce93582bc3021c58c",
-      "src/act-one-story.js": "125f5a730c27cc65aaeebb0874724fc2c8bc53f80240f926377b25a885f535ca",
-      "src/act-three.js": "7af8b765f65e0d275bb3074ee13c38bc7c83d95a85520957c22c0f3080cb3f12",
-      "src/act-two.js": "807f7e91d53deb169e51dac081ab1513e36cba166b1fe4d5000550d3625c1d86",
+      "src/act-five.js": "32b16c9f64c38c06f4a7daf2d2df4c0b228fc1600b45daac99ee92c8ac7cb23c",
+      "src/act-four.js": "4b3ededd56e73d32d5541256d793df9f083f0f26c2bcec5c01e5e115c61b9211",
+      "src/act-one-story.js": "9a09c962ef7783786746885da27470eaa39b86c2f90e406877fc5acacf603ce6",
+      "src/act-three.js": "4954dea5be100723ca8e2991a28be3b946ed53575fa8cbd7a325347ae19c696d",
+      "src/act-two.js": "450d2a81953415ccd6e58b9e931fe88a218ee524660fe510483052e9def5f682",
       "src/astronomy.js": "524cdfd457a4477001109df2546e66cf3083eebf85590d52e312673e2d7daede",
       "src/audio.js": "6eefd8d11fa27cccbeabb4753f6c8aaf62a61bc853feb28f57b56661c6cd1ffa",
-      "src/build-role.js": "4dcb2dcb1504739716ecfd12c01422a923be99bdc42e63438ff79e14ffcdf153",
+      "src/build-role.js": "a93eb09d15664c681273d9d3102c992730547bd99c5b49b5e256b83aa89fc8ea",
       "src/chapters.js": "f2493353214ada0d7eee1c573831b8c7019844b6d59191918ed34814442410ae",
       "src/content.js": "62225da8372d6a950d304ff03f9fc06608bb822240783070076c6fe84892734c",
+      "src/exploration.js": "7cabe8da8fbe933b31d9e517c566cddf7a35ca73e1938db17ee2483dc5c0bbd0",
       "src/finale.js": "6746d0be970d5e0488ee1b8c32c0b2b271938fdae51d4406b14706739119e0d3",
-      "src/game.js": "06478d8a112d33b326ecb6a25a2d9e72313c1bc248a3d87b6482a22afc6e489a",
+      "src/game.js": "aa2eabda3ec4d8adf0fc5155c58f1d1ff44fcb0193c19bb483e8bec912bc6605",
       "src/inscriptions.js": "a4891a4a4702d670481180385985c82970df9e7039c4db092d0d1f5286493c25",
-      "src/interaction-guide.js": "745746e76b4e6132f97613ddcafebf517cf26df2a9103dde1e8afae838e7bb41",
+      "src/interaction-guide.js": "8718523831881dacc4d77dffeff698c744acc0ea3e777d74f8f106d486766f7a",
       "src/investigation.js": "6191383e54f73eba5d657b981abf4ed9adc6352e9be7169d89a205d8906d6be4",
-      "src/joint-observation.js": "bc6d5cee56de50ff878444571bba636d9a2ef22e35f3d770df8cf86a81ddd354",
+      "src/joint-observation.js": "900a7fa7089968fea2ac3f3333fef40ab7953da182fddfc00651266f4edd8ad3",
       "src/linear-control.js": "44eb3fb634ebcf38b51dd56fece0757a72b0ab00cea38c157ed066a4b0daf23d",
       "src/main.js": "1e5d69c1a20bca7cda777ffff4e113657836af360ef5ad5105a8dfb68f6ddffb",
       "src/mechanics.js": "484e6f2363d15ab47a8abc0ab795d2d8b79947f08a8cfd258f6a56e76ce59e98",
@@ -37,7 +45,8 @@
       "src/rendering.js": "9c87656201da4c006e72a466103a90915de9d1f656c8f98bac2061d1e0ab1e2b",
       "src/rotary-control.js": "5f93a867471260427e342bef1a59f436b78a0d408d7ccae3a38a6a30450d4d00",
       "src/sky-reference.js": "3c262020146e084f54d3cf7a22e2f4451ce724ce34aa79c1f23dff9e19778cc3",
-      "src/state.js": "d8936e2815d09b835c1cfa92b9fb90bfe33e9cf6cc2a37e74564d2e4239b9563",
+      "src/spatial-layout.js": "d0324b2459c3efd91f84f025e8898e832c89e981ad7afb55694c5c843aefd82a",
+      "src/state.js": "30732e7683428fdc272401d0bb480a852b5482b197ffe90a1c0d398dce6ea780",
       "src/story.js": "18931b85832715bb93236e2c08551c31a8f29150568121442d077e70b8665162",
       "src/ui.js": "7b0e7ca94894e0923c8fdbf35a41151db9e2750c60d2fc5ef97574a0a1b2b7b3",
       "public/art/cabinet-closed.png": "3316f6aeb5eb8bd773485101e6777a607d89d8d882cce809634bf509831af67e",
@@ -51,22 +60,66 @@
       "public/art/hardware.png": "0846b48652e199c3aa7f3a49a8e8a9bff4292bb0e26e5fbc4b5c1fc414c3e780",
       "public/art/items.png": "c9e9bcd669973333bb6c4d576df2e589c7d45475265b147d976934e0c036cdbb",
       "public/art/press-latch.png": "28d924ddc9258129f4b7afb2c31fd00404a6688c5d98dab3d87e53f6709a80ba",
+      "public/art/rooms/archive-1986.webp": "6520caedfc735fc507af2223eb832acf89411d7d30653b6eb451de07d61786a7",
+      "public/art/rooms/archive-2066.webp": "cab784b4556f1749cdc1a7da33ba8e68a55450cf385f3f0207fe7565cfbf3a58",
+      "public/art/rooms/dome-back-1986.webp": "231ae474e1e0f10695ffabd605995307cdaf455ceaa5320cd48b312c80b94ac7",
+      "public/art/rooms/dome-back-2066.webp": "830cc0229dbc3f4544848aee5b2ebdf4e03dbb630c49215f24378a692aea1568",
+      "public/art/rooms/dome-front-1986.webp": "6044cb744680a6235a1cd006bd175320755a377624ae0b435d56dace941b178c",
+      "public/art/rooms/dome-front-2066.webp": "f83486ca34f185092d634acca04122efb9b7699030a187eae48217a282bcfc03",
+      "public/art/rooms/dome-left-1986.webp": "6f42824cc82b496ac26d3e9d4df713853e994a77d5effe39efdbd19339cfb02d",
+      "public/art/rooms/dome-left-2066.webp": "91ec791b8d21840aee00847655c1df8eacc7e9b49fad9fe0a8fb1dbeb85283b6",
+      "public/art/rooms/dome-right-1986.webp": "76e1fc9855a363fc4e8e233607c75ad29279dabd008c26499d192796d1bd33d9",
+      "public/art/rooms/dome-right-2066.webp": "760f592e511d87527439c29244af90892b7ad8855ec3b7031c4721d8ed63f2ab",
+      "public/art/rooms/hall-back-1986.webp": "a6322504b1eaa909a3a440dc385e7e3132962103eb292b120a6760c737ea05f3",
+      "public/art/rooms/hall-back-2066.webp": "652ca5777a6581e16d1b292bf34176e5803d5348cf9a5a2fb82cbb0b754fcc5f",
+      "public/art/rooms/hall-left-1986.webp": "7c67228472e501188c248634f2c75108bd768372613f0956ecb7cca0f16a392b",
+      "public/art/rooms/hall-left-2066.webp": "74348a72565a9dbe33e64026a2b8db01a390038a91e045acc89a55593fc55d9a",
+      "public/art/rooms/hall-right-1986.webp": "36d00b863c89b871b45c113297edf710a381056e88fdc6f24782809614ccd1fd",
+      "public/art/rooms/hall-right-2066.webp": "aafb872600d39d4dbecedfe9fecb3deeb1e4d9ee34726937550656b65afcc8dd",
+      "public/art/rooms/machine-1986.webp": "914a53dcba7b5807dbe8db216fd67e60b2dbb96846a254d0fe4a534d734f8108",
+      "public/art/rooms/machine-2066.webp": "08e0a7535498e14bde3e1e9ee99b70a4803028b350d6d59335c6e5d1379bf745",
+      "public/art/rooms/machine-repaired-1986.webp": "509d622f47ab8ef29035276b34c90003fc07311084fdf4b3e4f8561ccaf4dbd1",
+      "public/art/rooms/optics-1986.webp": "a5b1c7a0b62a08227182e5e83d257d059eeadd89e7f4932bb79acb19970cceb0",
+      "public/art/rooms/optics-2066.webp": "2cdbe14d9105bf1e4e864e4a705eedff6ec6ea87b8a6079f64e5a97019a4291a",
       "public/art/telescope.png": "0af500899b36b4e9285355f39d3114b09861970b5bc5c01608893ed14d05e9cb",
       "public/art/terminal.png": "b1ad498ed6f6ac1cfa754d97878c80672ad1a2a7ea44b44a160c8dc1f223aed1"
     },
     "bundles": {
-      "release/coop/Midnight-Observatory-A-1986.html": "9a068dcc00d8be3a06578e91aa1d264aacccaa45dc606bef653b2aab7e38443c",
-      "release/coop/Midnight-Observatory-B-2066.html": "d18fb83354f4dc499267e609a4bcc290a9ede5c4121a4ac5433a825650130e06",
-      "release/site/A/index.html": "8e484eb1f0ca1cfd520c12d7ce4098585a69405ac55de5e1708052c15aca38b9",
-      "release/site/B/index.html": "660f7490463f950251d0ea15f297322f4bf44e38140b00410b9d6f0ed499919f",
-      "release/site/A/assets/index-CsNMU260.js": "9d3415db1924d0131ec3abf89419c2779eeba98e8ae67f87310e94f864327ccb",
-      "release/site/B/assets/index-DzYHLnCl.js": "c002423b86c93fae8122e2c77e1a70690341addf27fee943d4d8961209ff3f1b"
+      "release/coop/Midnight-Observatory-A-1986.html": "d1e50c149cfe90d8a22e4f596ecb33c65002fb37fa29a1d60523aab39895010b",
+      "release/coop/Midnight-Observatory-B-2066.html": "8cbc61fe7530ab86d5385508cd02af158783f03d5b6d8de212872f18a7cebcab",
+      "release/site/A/index.html": "08fc357ef96b6fe333da4b6f8370f17798efa086fb5ba949b7f4c1a6ea62621d",
+      "release/site/B/index.html": "9213b25d3b5ff975333bf01f802abb17cd46c0fbce95f30b1b23c8fe84c8914b",
+      "release/site/A/assets/index-Tp2wk61O.js": "ed4317d5adddc3a66a014759a85291b5a05251a781ac5bf5157709ac2e79b794",
+      "release/site/B/assets/index-DKHvIRGd.js": "c849f8b02c2bc2b99c06f12495f790378e5580778c74cc02cf12187e011dc35e"
     },
-    "buildCompletedAt": 1794282369.269208
+    "buildCompletedAt": 1794295021.0093296
   },
   "browser": {
+    "exploration": {
+      "version": "0.21.0",
+      "checksPassed": 11,
+      "checks": [
+        "A four turns preserve all progress and close the ring; physical future entrances refuse unsolved preparation",
+        "A all eleven painted sectors render cleanly and every important object opens its own inspection or gives local feedback",
+        "A real doors and stairways connect all five rooms, allow backtracking and return to the original blocked hall exit",
+        "A saved viewing direction survives reload without changing role or chapter progress",
+        "B four turns preserve all progress and close the ring; physical future entrances refuse unsolved preparation",
+        "B all eleven painted sectors render cleanly and every important object opens its own inspection or gives local feedback",
+        "B real doors and stairways connect all five rooms, allow backtracking and return to the original blocked hall exit",
+        "B saved viewing direction survives reload without changing role or chapter progress",
+        "Canceling observation leaves the player at the same bay with no background completion or delayed return-route jump",
+        "Both players complete their local observation, physically descend to the hall and push the same original exit; no upstairs door substitutes for the ending",
+        "All painted exploration, inspections, lazy scene loads and final return routes complete without browser exceptions or failed resources"
+      ],
+      "browserErrors": [],
+      "httpErrors": [],
+      "scope": "New exploration and first art pass. Twenty-two room/era sectors and all world objects inspected through actual pointers. Current chapter records and complete route use explicit local prerequisite checkpoints, not a fresh five-act puzzle replay. Final observation and hall exit use real input.",
+      "builtInImageGenerations": 30,
+      "externalPaidImageApiCalls": 0,
+      "humanBlindPlaytest": false
+    },
     "finalGate": {
-      "version": "0.20.0",
+      "version": "0.21.0",
       "checksPassed": 8,
       "checks": [
         "B with solved archive work cannot stamp immediately or obtain a door handle before receiving the new photograph positions",
@@ -81,14 +134,15 @@
       "browserErrors": [],
       "httpErrors": [],
       "scope": "Focused final-step regression with explicit already-solved archive/appartus prerequisites; current photograph captured through real UI, result derived from actual pixels, B positions entered through real drags. No claim of a fresh replay of the earlier five acts.",
-      "imageApiCalls": 0,
+      "builtInImageGenerations": 30,
+      "externalPaidImageApiCalls": 0,
       "humanBlindPlaytest": false
     },
     "website": {
-      "version": "0.20.0",
+      "version": "0.21.0",
       "checksPassed": 8,
       "checks": [
-        "Web game bundles match the already-tested v0.20.0 independent offline builds byte for byte",
+        "Web game bundles match the already-tested v0.21.0 independent offline builds byte for byte",
         "Role selection and native scene previews load correctly below a project URL prefix",
         "Clicking A starts the actual Phaser game without a download; cabinet, pickup and reload persistence work",
         "Clicking B starts its own game; chart dragging and saved progress remain independent of A",
@@ -105,24 +159,58 @@
       "httpErrors": [],
       "validation": "Actual hosted-file structure tested on localhost beneath a project URL prefix. Public deployment status is verified separately through the GitHub Pages workflow."
     },
-    "story": {
-      "version": "0.20.0",
-      "checksPassed": 7,
+    "offline": {
+      "version": "0.21.0",
+      "checksPassed": 3,
       "checks": [
-        "A opening establishes the couple, meeting date, familiar phone and two eras; real exit push is blocked and the old book is readable",
-        "A all four chapter discoveries and purposes use local completed checkpoints, with the full escape rule on the act-three glass and internal passage after act one",
-        "B opening establishes the couple, meeting date, familiar phone and two eras; real exit push is blocked and the old book is readable",
-        "B all four chapter discoveries and purposes use local completed checkpoints, with the full escape rule on the act-three glass and internal passage after act one",
-        "Leaving the observation cancels its timer: no background completion, room flash or delayed reopening of the ending",
-        "Two isolated offline roles start their own 11-second observations, save only local progress, physically push their own exits and return to the 2026 rendezvous",
-        "Narrative views, observation cancellation and both saved reunions finish without browser exceptions or failed resources"
+        "A standalone HTML embeds correct WebP MIME and renders a lazy room with the network offline after startup; its real onward door still checks preparation",
+        "B standalone HTML embeds correct WebP MIME and renders a lazy room with the network offline after startup; its real onward door still checks preparation",
+        "Both standalone role files use only their own document with no external asset requests or browser exceptions"
       ],
       "browserErrors": [],
       "httpErrors": [],
-      "scope": "Four real opening beats per role, actual blocked exit/book interactions, explicit local completed checkpoints for chapter record screenshots, real cancellation and final observation/door interactions. Earlier puzzles were not replayed. Offline local observations are verified; remote simultaneity remains actual player voice coordination.",
-      "imageApiCalls": 0,
-      "humanBlindPlaytest": false
+      "fileStarts": [
+        {
+          "role": "A",
+          "url": "file:///workspace/the-midnight-observatory/release/coop/Midnight-Observatory-A-1986.html",
+          "status": "blockedByBrowserPolicy",
+          "error": "net::ERR_BLOCKED_BY_ADMINISTRATOR"
+        },
+        {
+          "role": "B",
+          "url": "file:///workspace/the-midnight-observatory/release/coop/Midnight-Observatory-B-2066.html",
+          "status": "blockedByBrowserPolicy",
+          "error": "net::ERR_BLOCKED_BY_ADMINISTRATOR"
+        }
+      ],
+      "directFileStartValidated": false,
+      "httpRequests": [
+        "http://127.0.0.1:9091/coop/Midnight-Observatory-A-1986.html",
+        "http://127.0.0.1:9091/coop/Midnight-Observatory-B-2066.html"
+      ],
+      "scope": "Both direct file URLs were attempted. Organization Chromium URLBlocklist policy blocks file://; unchanged standalone HTML tested over permitted localhost instead, then network disabled before the embedded WebP lazy sector load. This does not validate direct local file startup or a complete offline replay.",
+      "builtInImageGenerations": 30,
+      "externalPaidImageApiCalls": 0
     }
+  },
+  "art": {
+    "newScenePaintings": 20,
+    "registeredStatePaintings": 1,
+    "paintedEraSectors": 22,
+    "builtInImageGenerations": 30,
+    "externalPaidImageApiCalls": 0,
+    "nativeSizes": [
+      [
+        1671,
+        941
+      ],
+      [
+        1672,
+        941
+      ]
+    ],
+    "runtimeAssetPixelParity": 21,
+    "status": "First production art pass. User-reviewed stairs have actual landing doors and lower clearances. Instrument closeups, independent moving sprites and final staging remain prototypes."
   },
   "astronomyReference": {
     "site": {
@@ -166,8 +254,6 @@
     "properMotionIncluded": true,
     "atmosphericRefraction": false
   },
-  "imageApiCalls": 0,
   "humanBlindPlaytest": false,
-  "artStatus": "Hall paintings reused. Opening and first-act ending are labelled storyboard previews. Acts II-V remain labelled art prototypes.",
-  "publicationValidation": "Exact final game files tested on localhost. Public deployment is verified separately using the matching GitHub Pages commit."
+  "publicationValidation": "Exact final game files tested on localhost. Direct file:// startup is blocked by organization Chromium policy; unchanged standalone HTML was tested over permitted localhost, then network disabled for embedded scene loading. Matching GitHub Pages commit is checked separately after publishing."
 }
