@@ -1,37 +1,42 @@
 {
-  "version": "0.21.0",
+  "version": "0.22.0",
   "checksPassed": {
-    "unit": 124,
-    "exploration": 11,
-    "finalGate": 8,
+    "unit": 128,
+    "firstAct": 12,
+    "legacy": 9,
     "website": 8,
-    "offline": 3,
-    "browserTotal": 30
+    "embeddedStandalone": 3,
+    "structureReview": 2,
+    "gameBrowserTotal": 32,
+    "browserTotal": 34
   },
   "verifiedBuild": {
-    "version": "0.21.0",
+    "version": "0.22.0",
     "sources": {
       "index.html": "cbbeb6e143c74f66ca554aa2a64f56a306ba0b2ccb7b996b9218a7f45383b142",
-      "package.json": "d2be375c6136956acbf314d7972831aab06391aeb4ad388b8d9dc442c4ec16a2",
-      "package-lock.json": "ff6411aa201321e3464f4fa711361a06dd14a7b90b9a1eebc6b9207ce6f6673a",
+      "package.json": "a953d0183027442a5c8ea34f4bed7752a9cd784ccb5adecfe046881aa032c9cb",
+      "package-lock.json": "3a1ee6563f5bc04aa3754c981801dadf2c5d78903f3670500a89a3fa0b1f664b",
       "vite.config.js": "bc190acbfcba2fa7f767d44cc30d07d1149dc92359140e09def7831f41908525",
-      "scripts/build-coop.mjs": "07169a8b80a9b6df11058ce287124da11bc6e7c69d468adcf46d36dce34b2cda",
+      "scripts/build-coop.mjs": "d0156915c16123b845e236b57200853a674ab3bec5ef7f888e64f0f87e305cfa",
       "scripts/build-web.mjs": "246cc05e8efac7b3ce402222bf2b68345785f09eef471d8c29bbac068e62952d",
+      "scripts/build-offline.mjs": "b4569aa36b853ac2bd9d15c9f0cff204769509443a30011b5ef625f300f802f5",
       "web/index.html": "de4cbcad616d7004b0bd1a44f3d0aeccf10d9f54854f3001bb8e462918026e1f",
       "src/act-five-investigation.js": "bc8081b5d587f88bb66a93c4980fc916007baec669addd5f38c7b89583540885",
       "src/act-five.js": "32b16c9f64c38c06f4a7daf2d2df4c0b228fc1600b45daac99ee92c8ac7cb23c",
       "src/act-four.js": "4b3ededd56e73d32d5541256d793df9f083f0f26c2bcec5c01e5e115c61b9211",
+      "src/act-one-presentation.js": "9cbdae3dfbb8ec52f1b286ed9d8e2d6552f738e5543335e324085dec53e01ed6",
       "src/act-one-story.js": "9a09c962ef7783786746885da27470eaa39b86c2f90e406877fc5acacf603ce6",
       "src/act-three.js": "4954dea5be100723ca8e2991a28be3b946ed53575fa8cbd7a325347ae19c696d",
       "src/act-two.js": "450d2a81953415ccd6e58b9e931fe88a218ee524660fe510483052e9def5f682",
       "src/astronomy.js": "524cdfd457a4477001109df2546e66cf3083eebf85590d52e312673e2d7daede",
       "src/audio.js": "6eefd8d11fa27cccbeabb4753f6c8aaf62a61bc853feb28f57b56661c6cd1ffa",
-      "src/build-role.js": "a93eb09d15664c681273d9d3102c992730547bd99c5b49b5e256b83aa89fc8ea",
+      "src/build-role.js": "3c46eb49cf29eb018bfe98c27f0ddeff7b87754073641d7e77c88256f16a4b34",
       "src/chapters.js": "f2493353214ada0d7eee1c573831b8c7019844b6d59191918ed34814442410ae",
       "src/content.js": "62225da8372d6a950d304ff03f9fc06608bb822240783070076c6fe84892734c",
       "src/exploration.js": "7cabe8da8fbe933b31d9e517c566cddf7a35ca73e1938db17ee2483dc5c0bbd0",
       "src/finale.js": "6746d0be970d5e0488ee1b8c32c0b2b271938fdae51d4406b14706739119e0d3",
-      "src/game.js": "aa2eabda3ec4d8adf0fc5155c58f1d1ff44fcb0193c19bb483e8bec912bc6605",
+      "src/game.js": "385405b9da567541ce0c34d51be0b85bc610fda18a93f40460ec9cbc5be4197a",
+      "src/hinged-art.js": "28e94e9abc14eee7d08cba713e77315e161c0ea426e61a5a6498cc2da238cc14",
       "src/inscriptions.js": "a4891a4a4702d670481180385985c82970df9e7039c4db092d0d1f5286493c25",
       "src/interaction-guide.js": "8718523831881dacc4d77dffeff698c744acc0ea3e777d74f8f106d486766f7a",
       "src/investigation.js": "6191383e54f73eba5d657b981abf4ed9adc6352e9be7169d89a205d8906d6be4",
@@ -43,12 +48,16 @@
       "src/meteor-report.js": "b868b76ab1725c1041f7c547a32b929bfcbbbb217dbde76ca5eeb69f0b62291b",
       "src/optics.js": "923153c5929c534ff3bc69f8a29124171e4a401706043492d25d42f993a22702",
       "src/rendering.js": "9c87656201da4c006e72a466103a90915de9d1f656c8f98bac2061d1e0ab1e2b",
-      "src/rotary-control.js": "5f93a867471260427e342bef1a59f436b78a0d408d7ccae3a38a6a30450d4d00",
+      "src/rotary-control.js": "9c6d6969af3cab2aeccb03848fe8e35ea1945ddd701552ea6734a4c1d09d7771",
       "src/sky-reference.js": "3c262020146e084f54d3cf7a22e2f4451ce724ce34aa79c1f23dff9e19778cc3",
       "src/spatial-layout.js": "d0324b2459c3efd91f84f025e8898e832c89e981ad7afb55694c5c843aefd82a",
       "src/state.js": "30732e7683428fdc272401d0bb480a852b5482b197ffe90a1c0d398dce6ea780",
       "src/story.js": "18931b85832715bb93236e2c08551c31a8f29150568121442d077e70b8665162",
       "src/ui.js": "7b0e7ca94894e0923c8fdbf35a41151db9e2750c60d2fc5ef97574a0a1b2b7b3",
+      "public/art/act1/cabinet-body.webp": "d648fc5ed3e1903efdbc205a82022c5225796438f6d716517528013699357e40",
+      "public/art/act1/lens-states.png": "1a402a8191fdd6d1b258a772fc98c2236aa9962c561756d3ab296a3b3a427fe2",
+      "public/art/act1/scope-future.webp": "3d8299f007b378882540a06d0593bdd0906676b60e798265c68ff2684ae4f696",
+      "public/art/act1/terminal-three.webp": "e0fb7c1a1dd76b15324fb99d26165c3397a93d96bcf00f02acb045ccf11a42c5",
       "public/art/cabinet-closed.png": "3316f6aeb5eb8bd773485101e6777a607d89d8d882cce809634bf509831af67e",
       "public/art/cabinet-open.png": "62e849a19a71dc9541fcc36767c641a5c7c5f19ec8958bbee74e2b2d0bc890bf",
       "public/art/calibration.png": "12c0305349c76100d728704ce98c4c31208974adc4bb9f58e37c670da9b9c4ff",
@@ -85,64 +94,64 @@
       "public/art/terminal.png": "b1ad498ed6f6ac1cfa754d97878c80672ad1a2a7ea44b44a160c8dc1f223aed1"
     },
     "bundles": {
-      "release/coop/Midnight-Observatory-A-1986.html": "d1e50c149cfe90d8a22e4f596ecb33c65002fb37fa29a1d60523aab39895010b",
-      "release/coop/Midnight-Observatory-B-2066.html": "8cbc61fe7530ab86d5385508cd02af158783f03d5b6d8de212872f18a7cebcab",
-      "release/site/A/index.html": "08fc357ef96b6fe333da4b6f8370f17798efa086fb5ba949b7f4c1a6ea62621d",
-      "release/site/B/index.html": "9213b25d3b5ff975333bf01f802abb17cd46c0fbce95f30b1b23c8fe84c8914b",
-      "release/site/A/assets/index-Tp2wk61O.js": "ed4317d5adddc3a66a014759a85291b5a05251a781ac5bf5157709ac2e79b794",
-      "release/site/B/assets/index-DKHvIRGd.js": "c849f8b02c2bc2b99c06f12495f790378e5580778c74cc02cf12187e011dc35e"
+      "release/site/index.html": "cd124051576b6838bff6f9587f36706092f32a64176b49221cbe4a020d46cc2c",
+      "release/coop/Midnight-Observatory-A-1986.html": "5a501df743146391e92c42885c4a50123c6d22bfa11c71f0962d053cc5c022d9",
+      "release/site/A/index.html": "264dad8efbaeb03dd456325bbe97714f1c5d01a2ff366b59b4c9344fe21f07a8",
+      "release/site/A/assets/index-DZ5pNGSw.js": "ab15b2c0edf3843877fbed3e758a6baf330d575536bc2824f8430c74a3bedac0",
+      "release/coop/Midnight-Observatory-B-2066.html": "4af7e5e17aa4ad44f0c5521c61ef20f31620383477d1da1df5c022580e524e41",
+      "release/site/B/index.html": "22e11f52b1c8bd980a1f981750a8a789cab4771fc1079f28d8fa757c48c6b18d",
+      "release/site/B/assets/index-CuqY_h8v.js": "10d0553833f2803db2ca26aef7eaea35695b261552b20e39b7068a4302b76ae5"
     },
-    "buildCompletedAt": 1794295021.0093296
+    "buildCompletedAt": 1794337793.1958003
   },
   "browser": {
-    "exploration": {
-      "version": "0.21.0",
-      "checksPassed": 11,
+    "firstAct": {
+      "version": "0.22.0",
+      "checksPassed": 12,
       "checks": [
-        "A four turns preserve all progress and close the ring; physical future entrances refuse unsolved preparation",
-        "A all eleven painted sectors render cleanly and every important object opens its own inspection or gives local feedback",
-        "A real doors and stairways connect all five rooms, allow backtracking and return to the original blocked hall exit",
-        "A saved viewing direction survives reload without changing role or chapter progress",
-        "B four turns preserve all progress and close the ring; physical future entrances refuse unsolved preparation",
-        "B all eleven painted sectors render cleanly and every important object opens its own inspection or gives local feedback",
-        "B real doors and stairways connect all five rooms, allow backtracking and return to the original blocked hall exit",
-        "B saved viewing direction survives reload without changing role or chapter progress",
-        "Canceling observation leaves the player at the same bay with no background completion or delayed return-route jump",
-        "Both players complete their local observation, physically descend to the hall and push the same original exit; no upstairs door substitutes for the ending",
-        "All painted exploration, inspections, lazy scene loads and final return routes complete without browser exceptions or failed resources"
+        "Fresh normal saves open the couple story separately and export only the current role, with no prepared puzzle fixtures",
+        "Future telescope has its own aged inspection and no installation control; the terminal refuses an unrecovered chart",
+        "Both painted handles operate the continuous hinged doors; inspection remains opaque and the cabinet opens, closes and reopens",
+        "Lens leaves its shelf and enters inventory, has an independent dirty inspection, and cannot be installed before cleaning",
+        "Combining the actual cloth and lens shows the wiping action and a distinct clean lens while retaining the same inspection",
+        "Dragging the clean lens installs it beneath the registered retaining rim, consumes the item and keeps the telescope inspection open",
+        "Only A sees the optical reticle; inspecting it does not send the clue or progress to B",
+        "Dragging the four physical pages restores B-only named dial records and original coordinate readings; A remains unchanged",
+        "A follows the identically named records read from B pages, rotates each physical dial and reaches its own first-act ending",
+        "The three real terminal knobs accept the coordinate readings visible on B pages and its mounted plunger reaches the independent ending",
+        "Both completed first-act saves, item states and viewing directions survive reload without acquiring the other role state",
+        "All first-act art, masks, continuous animations and physical controls complete without browser exceptions or failed resources"
       ],
       "browserErrors": [],
       "httpErrors": [],
-      "scope": "New exploration and first art pass. Twenty-two room/era sectors and all world objects inspected through actual pointers. Current chapter records and complete route use explicit local prerequisite checkpoints, not a fresh five-act puzzle replay. Final observation and hall exit use real input.",
-      "builtInImageGenerations": 30,
-      "externalPaidImageApiCalls": 0,
-      "humanBlindPlaytest": false
+      "scope": "Fresh independent first-act normal playthrough using known reference colour order, then actual B page text to derive A dial directions and B coordinates. All operations use real pointers/drags/wheels. Isolated browser contexts simulate spoken information transfer; no human blind playtest.",
+      "humanBlindPlaytest": false,
+      "builtInImageGenerationsThisVersion": 4,
+      "externalPaidImageApiCalls": 0
     },
-    "finalGate": {
-      "version": "0.21.0",
-      "checksPassed": 8,
+    "legacy": {
+      "version": "0.22.0",
+      "checksPassed": 9,
       "checks": [
-        "B with solved archive work cannot stamp immediately or obtain a door handle before receiving the new photograph positions",
-        "Missing or incorrect positions fail without completing the stamp, opening the door or clearing the archive work",
-        "Only a successful A exposure reveals the new photograph; both displayed grid positions agree with the actual trail pixels and B remains unchanged offline",
-        "Correct positions persist through refresh but still require stamping; successful verification unlocks the observation window without requiring optional comparison",
-        "Only after the verified stamp and local observation can B physically open the door and complete its own ending",
-        "An old v0.19 stamp-only completion migrates with all archive work retained and the unverified stamp/door reset; the old raw save is untouched",
-        "A fresh fifth-act chapter test has no early stamp at all and cannot inherit the completed normal ending",
-        "All focused final-gate interactions and the legacy continuation complete without browser exceptions or failed resources"
+        "A act 2 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
+        "A act 3 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
+        "A act 4 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
+        "A act 5 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
+        "B act 2 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
+        "B act 3 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
+        "B act 4 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
+        "B act 5 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
+        "Later-act inspections, failed local calibration and fresh final-stamp gate show no browser errors or failed assets"
       ],
       "browserErrors": [],
       "httpErrors": [],
-      "scope": "Focused final-step regression with explicit already-solved archive/appartus prerequisites; current photograph captured through real UI, result derived from actual pixels, B positions entered through real drags. No claim of a fresh replay of the earlier five acts.",
-      "builtInImageGenerations": 30,
-      "externalPaidImageApiCalls": 0,
-      "humanBlindPlaytest": false
+      "scope": "Focused later-act regression using explicit chapter preparation checkpoints. Apparatus views and unsolved gates checked; not a fresh replay of Acts II–V."
     },
     "website": {
-      "version": "0.21.0",
+      "version": "0.22.0",
       "checksPassed": 8,
       "checks": [
-        "Web game bundles match the already-tested v0.21.0 independent offline builds byte for byte",
+        "Web game bundles match the already-tested v0.22.0 independent offline builds byte for byte",
         "Role selection and native scene previews load correctly below a project URL prefix",
         "Clicking A starts the actual Phaser game without a download; cabinet, pickup and reload persistence work",
         "Clicking B starts its own game; chart dragging and saved progress remain independent of A",
@@ -159,8 +168,8 @@
       "httpErrors": [],
       "validation": "Actual hosted-file structure tested on localhost beneath a project URL prefix. Public deployment status is verified separately through the GitHub Pages workflow."
     },
-    "offline": {
-      "version": "0.21.0",
+    "embeddedStandalone": {
+      "version": "0.22.0",
       "checksPassed": 3,
       "checks": [
         "A standalone HTML embeds correct WebP MIME and renders a lazy room with the network offline after startup; its real onward door still checks preparation",
@@ -191,69 +200,147 @@
       "scope": "Both direct file URLs were attempted. Organization Chromium URLBlocklist policy blocks file://; unchanged standalone HTML tested over permitted localhost instead, then network disabled before the embedded WebP lazy sector load. This does not validate direct local file startup or a complete offline replay.",
       "builtInImageGenerations": 30,
       "externalPaidImageApiCalls": 0
+    },
+    "structureReview": {
+      "version": "0.22.0",
+      "checksPassed": 2,
+      "checks": [
+        "All three structure diagrams switch through real review controls and render with the expected native dimensions",
+        "All fourteen fixed camera and section renders load through the selector without browser exceptions or failed resources"
+      ],
+      "browserErrors": [],
+      "httpErrors": [],
+      "scope": "Production review document, not game art. Diagrams and all camera render assets operated through real browser controls."
     }
   },
-  "art": {
-    "newScenePaintings": 20,
-    "registeredStatePaintings": 1,
-    "paintedEraSectors": 22,
-    "builtInImageGenerations": 30,
-    "externalPaidImageApiCalls": 0,
-    "nativeSizes": [
-      [
-        1671,
-        941
-      ],
-      [
-        1672,
-        941
-      ]
-    ],
-    "runtimeAssetPixelParity": 21,
-    "status": "First production art pass. User-reviewed stairs have actual landing doors and lower clearances. Instrument closeups, independent moving sprites and final staging remain prototypes."
-  },
-  "astronomyReference": {
-    "site": {
-      "latitudeDeg": 52,
-      "longitudeDeg": 0,
-      "heightM": 50,
-      "timezone": "UTC+00:00"
+  "visualAudit": {
+    "version": "0.22.0",
+    "fixedCabinetCornice": {
+      "A-cabinet-opening": {
+        "maxChannelDifference": 0
+      },
+      "A-cabinet-open": {
+        "maxChannelDifference": 0
+      },
+      "A-cabinet-reclosed": {
+        "maxChannelDifference": 0
+      }
     },
-    "timestampUTC": "1986-11-17T23:48:00Z",
-    "guides": [
+    "dirtyCleanLensMeanChannelDifference": 12.21,
+    "runtimeAssetPixelParity": [
+      "public/art/act1/cabinet-body.webp",
+      "public/art/act1/lens-states.png",
+      "public/art/act1/terminal-three.webp",
+      "public/art/act1/scope-future.webp"
+    ],
+    "scope": "Compare exact rendered screenshots and unchanged corner pixels. Not a claim of perfect perspective in all existing backgrounds."
+  },
+  "structure": {
+    "status": "Proposed metric blockout and cameras; existing game backgrounds have not all been redrawn to this model. Not final game art.",
+    "geometry": {
+      "checks": [
+        {
+          "path": "Hall to machinery",
+          "samples": 2,
+          "floorContinuitySamples": 16,
+          "minimumActualHeadroomM": 2.5,
+          "passed": true
+        },
+        {
+          "path": "Machine to archive",
+          "samples": 4,
+          "floorContinuitySamples": 63,
+          "minimumActualHeadroomM": 2.5,
+          "passed": true
+        },
+        {
+          "path": "Archive to optics",
+          "samples": 4,
+          "floorContinuitySamples": 63,
+          "minimumActualHeadroomM": 2.5,
+          "passed": true
+        },
+        {
+          "path": "mainStair",
+          "samples": 36,
+          "floorContinuitySamples": 221,
+          "minimumActualHeadroomM": 2.3,
+          "passed": true
+        },
+        {
+          "path": "opticsStair",
+          "samples": 34,
+          "floorContinuitySamples": 245,
+          "minimumActualHeadroomM": 2.3,
+          "passed": true
+        }
+      ],
+      "sharedEraGeometry": true,
+      "riseMatchesUpperFloor": true,
+      "minimumDoorWidth": 1.25,
+      "minimumLandingDepth": 1.4
+    },
+    "cameraCount": 14,
+    "diagrams": 3,
+    "modelSha256": "8c3ecd9c905293f46dd74d5508c5058e3a4b5e7a7df4bca87de003cec5a6d049",
+    "scriptSha256": "21e154ea9206e49e98269d052e6a2b157cf93cc744a9a415f89ae2c0182c5984",
+    "layoutSha256": "1def6f6dd91c54b3a16f038fa654066b47cd2e7ca4458de3fe30dfdbd5c0d517"
+  },
+  "art": {
+    "builtInImageGenerationsThisVersion": 4,
+    "previousScenePassCounter": 30,
+    "externalPaidImageApiCalls": 0,
+    "newAssets": [
       {
-        "name": "织女星",
-        "hip": 91262,
-        "azimuth": 326,
-        "altitude": 9,
-        "azimuthUnrounded": 325.815675,
-        "altitudeUnrounded": 8.993638
+        "runtime": "public/art/act1/cabinet-body.webp",
+        "source": "/workspace/generated_images/exec-e4e7c88e-d95c-4791-aa2d-4717e7f52a99.png",
+        "width": 1672,
+        "height": 941,
+        "lossless": true,
+        "sha256": "d648fc5ed3e1903efdbc205a82022c5225796438f6d716517528013699357e40"
       },
       {
-        "name": "天津四",
-        "hip": 102098,
-        "azimuth": 310,
-        "altitude": 27,
-        "azimuthUnrounded": 309.606667,
-        "altitudeUnrounded": 27.279088
+        "runtime": "public/art/act1/lens-states.png",
+        "source": "/workspace/generated_images/exec-970091da-13a6-4693-bb71-162082265aa6.png",
+        "width": 1774,
+        "height": 887,
+        "lossless": true,
+        "sha256": "1a402a8191fdd6d1b258a772fc98c2236aa9962c561756d3ab296a3b3a427fe2",
+        "frames": [
+          {
+            "x": 85,
+            "y": 79,
+            "w": 720,
+            "h": 732
+          },
+          {
+            "x": 952,
+            "y": 79,
+            "w": 721,
+            "h": 732
+          }
+        ]
       },
       {
-        "name": "五车二",
-        "hip": 24608,
-        "azimuth": 100,
-        "altitude": 73,
-        "azimuthUnrounded": 100.090725,
-        "altitudeUnrounded": 72.513986
+        "runtime": "public/art/act1/terminal-three.webp",
+        "source": "/workspace/generated_images/exec-85d4a501-fd91-464a-a179-e03be3ed287b.png",
+        "width": 1671,
+        "height": 941,
+        "lossless": true,
+        "sha256": "e0fb7c1a1dd76b15324fb99d26165c3397a93d96bcf00f02acb045ccf11a42c5"
+      },
+      {
+        "runtime": "public/art/act1/scope-future.webp",
+        "source": "/workspace/generated_images/exec-4d52771e-492d-44a0-9913-743f632292dc.png",
+        "width": 1672,
+        "height": 941,
+        "lossless": true,
+        "sha256": "3d8299f007b378882540a06d0593bdd0906676b60e798265c68ff2684ae4f696"
       }
     ],
-    "conventions": "方位角北0°、向东顺时针；高度角从几何地平线向上。",
-    "limitations": "整数度游戏读数；不计大气折射。背景星点为示意，流星与时空事件为虚构。",
-    "astropyVersion": "7.2.0",
-    "catalogueSource": "https://raw.githubusercontent.com/astronexus/HYG-Database/main/hyg/CURRENT/hygdata_v41.csv",
-    "catalogueSHA256": "d9f69fd86bbf90a4e4d52b4c5c53eacfa6dfc0bfdef85bfd94f095e0bebe4ebd",
-    "properMotionIncluded": true,
-    "atmosphericRefraction": false
+    "status": "First-act object presentation sample; full background repaint, final materials, moving contact shadows and native high-resolution masters remain for later production."
   },
   "humanBlindPlaytest": false,
-  "publicationValidation": "Exact final game files tested on localhost. Direct file:// startup is blocked by organization Chromium policy; unchanged standalone HTML was tested over permitted localhost, then network disabled for embedded scene loading. Matching GitHub Pages commit is checked separately after publishing."
+  "directFileStartValidated": false,
+  "publicationValidation": "Exact game files tested on localhost; direct file URLs attempted and policy limitation recorded in standalone report. Matching GitHub Pages commit is checked separately after publishing."
 }
