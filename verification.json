@@ -1,63 +1,34 @@
 {
-  "version": "0.22.0",
+  "version": "0.24.0",
   "checksPassed": {
-    "unit": 128,
-    "firstAct": 12,
-    "legacy": 9,
+    "unit": 130,
+    "firstAct": 16,
     "website": 8,
+    "legacy": 9,
     "embeddedStandalone": 3,
-    "structureReview": 2,
-    "gameBrowserTotal": 32,
-    "browserTotal": 34
+    "quality": 3,
+    "hallViews": 7,
+    "gameBrowserTotal": 46,
+    "browserTotal": 46
   },
   "verifiedBuild": {
-    "version": "0.22.0",
+    "version": "0.24.0",
     "sources": {
+      "docs/ART-CURRENT.json": "edf4147b90ef4dd697d0563f2ec9c229f9e58bc046b90e9abb184eefe6623f2f",
+      "docs/art-v3/sources.json": "bdf88b5d619cae96091a168792f7f987644769bce4e9053d0d12186df135ab8a",
+      "docs/art-v4/sources.json": "720b3ebf2b1373436dd3a6d262189d86d2feef29958819601e3d57e06de05354",
       "index.html": "cbbeb6e143c74f66ca554aa2a64f56a306ba0b2ccb7b996b9218a7f45383b142",
-      "package.json": "a953d0183027442a5c8ea34f4bed7752a9cd784ccb5adecfe046881aa032c9cb",
-      "package-lock.json": "3a1ee6563f5bc04aa3754c981801dadf2c5d78903f3670500a89a3fa0b1f664b",
-      "vite.config.js": "bc190acbfcba2fa7f767d44cc30d07d1149dc92359140e09def7831f41908525",
-      "scripts/build-coop.mjs": "d0156915c16123b845e236b57200853a674ab3bec5ef7f888e64f0f87e305cfa",
-      "scripts/build-web.mjs": "246cc05e8efac7b3ce402222bf2b68345785f09eef471d8c29bbac068e62952d",
-      "scripts/build-offline.mjs": "b4569aa36b853ac2bd9d15c9f0cff204769509443a30011b5ef625f300f802f5",
-      "web/index.html": "de4cbcad616d7004b0bd1a44f3d0aeccf10d9f54854f3001bb8e462918026e1f",
-      "src/act-five-investigation.js": "bc8081b5d587f88bb66a93c4980fc916007baec669addd5f38c7b89583540885",
-      "src/act-five.js": "32b16c9f64c38c06f4a7daf2d2df4c0b228fc1600b45daac99ee92c8ac7cb23c",
-      "src/act-four.js": "4b3ededd56e73d32d5541256d793df9f083f0f26c2bcec5c01e5e115c61b9211",
-      "src/act-one-presentation.js": "9cbdae3dfbb8ec52f1b286ed9d8e2d6552f738e5543335e324085dec53e01ed6",
-      "src/act-one-story.js": "9a09c962ef7783786746885da27470eaa39b86c2f90e406877fc5acacf603ce6",
-      "src/act-three.js": "4954dea5be100723ca8e2991a28be3b946ed53575fa8cbd7a325347ae19c696d",
-      "src/act-two.js": "450d2a81953415ccd6e58b9e931fe88a218ee524660fe510483052e9def5f682",
-      "src/astronomy.js": "524cdfd457a4477001109df2546e66cf3083eebf85590d52e312673e2d7daede",
-      "src/audio.js": "6eefd8d11fa27cccbeabb4753f6c8aaf62a61bc853feb28f57b56661c6cd1ffa",
-      "src/build-role.js": "3c46eb49cf29eb018bfe98c27f0ddeff7b87754073641d7e77c88256f16a4b34",
-      "src/chapters.js": "f2493353214ada0d7eee1c573831b8c7019844b6d59191918ed34814442410ae",
-      "src/content.js": "62225da8372d6a950d304ff03f9fc06608bb822240783070076c6fe84892734c",
-      "src/exploration.js": "7cabe8da8fbe933b31d9e517c566cddf7a35ca73e1938db17ee2483dc5c0bbd0",
-      "src/finale.js": "6746d0be970d5e0488ee1b8c32c0b2b271938fdae51d4406b14706739119e0d3",
-      "src/game.js": "385405b9da567541ce0c34d51be0b85bc610fda18a93f40460ec9cbc5be4197a",
-      "src/hinged-art.js": "28e94e9abc14eee7d08cba713e77315e161c0ea426e61a5a6498cc2da238cc14",
-      "src/inscriptions.js": "a4891a4a4702d670481180385985c82970df9e7039c4db092d0d1f5286493c25",
-      "src/interaction-guide.js": "8718523831881dacc4d77dffeff698c744acc0ea3e777d74f8f106d486766f7a",
-      "src/investigation.js": "6191383e54f73eba5d657b981abf4ed9adc6352e9be7169d89a205d8906d6be4",
-      "src/joint-observation.js": "900a7fa7089968fea2ac3f3333fef40ab7953da182fddfc00651266f4edd8ad3",
-      "src/linear-control.js": "44eb3fb634ebcf38b51dd56fece0757a72b0ab00cea38c157ed066a4b0daf23d",
-      "src/main.js": "1e5d69c1a20bca7cda777ffff4e113657836af360ef5ad5105a8dfb68f6ddffb",
-      "src/mechanics.js": "484e6f2363d15ab47a8abc0ab795d2d8b79947f08a8cfd258f6a56e76ce59e98",
-      "src/meteor-report-view.js": "61b694384280d972b9a1b124b42fc28d0936413184e67c00779431bdad1efcb5",
-      "src/meteor-report.js": "b868b76ab1725c1041f7c547a32b929bfcbbbb217dbde76ca5eeb69f0b62291b",
-      "src/optics.js": "923153c5929c534ff3bc69f8a29124171e4a401706043492d25d42f993a22702",
-      "src/rendering.js": "9c87656201da4c006e72a466103a90915de9d1f656c8f98bac2061d1e0ab1e2b",
-      "src/rotary-control.js": "9c6d6969af3cab2aeccb03848fe8e35ea1945ddd701552ea6734a4c1d09d7771",
-      "src/sky-reference.js": "3c262020146e084f54d3cf7a22e2f4451ce724ce34aa79c1f23dff9e19778cc3",
-      "src/spatial-layout.js": "d0324b2459c3efd91f84f025e8898e832c89e981ad7afb55694c5c843aefd82a",
-      "src/state.js": "30732e7683428fdc272401d0bb480a852b5482b197ffe90a1c0d398dce6ea780",
-      "src/story.js": "18931b85832715bb93236e2c08551c31a8f29150568121442d077e70b8665162",
-      "src/ui.js": "7b0e7ca94894e0923c8fdbf35a41151db9e2750c60d2fc5ef97574a0a1b2b7b3",
+      "package-lock.json": "6951bdcd7abae9e7d4b9f1e0f9d39418340736a8216a8d7f6f74e499bf5ccb1c",
+      "package.json": "8af3920d552ed97ca32b53b35bc93c65d0c35dcba9bd5af1d7970d5bb9043fa1",
       "public/art/act1/cabinet-body.webp": "d648fc5ed3e1903efdbc205a82022c5225796438f6d716517528013699357e40",
       "public/art/act1/lens-states.png": "1a402a8191fdd6d1b258a772fc98c2236aa9962c561756d3ab296a3b3a427fe2",
       "public/art/act1/scope-future.webp": "3d8299f007b378882540a06d0593bdd0906676b60e798265c68ff2684ae4f696",
       "public/art/act1/terminal-three.webp": "e0fb7c1a1dd76b15324fb99d26165c3397a93d96bcf00f02acb045ccf11a42c5",
+      "public/art/act1/v23/cabinet-body.webp": "68c5aac08cde2d1c22dfb78259b1fc57e9d284cd79764723592d10b7cb6c8d7e",
+      "public/art/act1/v23/cabinet-doors.png": "d4d2232427e5e99e14f73a49256867c447edd6c85e682714a93135a0d501bf0e",
+      "public/art/act1/v23/cabinet-future.webp": "0dd4cd0134681b6c5b997fde3bfad0b8d76c4bc7bfcf3cfd47daed5317cbcd1a",
+      "public/art/act1/v23/hall-1986.webp": "94f72db1b696a2fff23fb0c74d426a7e7a0964253ff4f65a943a6c83b05932d4",
+      "public/art/act1/v23/hall-2066.webp": "756616afb22990bcfb28c9bde10a02817ffb193355614b70878083821b21f163",
       "public/art/cabinet-closed.png": "3316f6aeb5eb8bd773485101e6777a607d89d8d882cce809634bf509831af67e",
       "public/art/cabinet-open.png": "62e849a19a71dc9541fcc36767c641a5c7c5f19ec8958bbee74e2b2d0bc890bf",
       "public/art/calibration.png": "12c0305349c76100d728704ce98c4c31208974adc4bb9f58e37c670da9b9c4ff",
@@ -79,79 +50,114 @@
       "public/art/rooms/dome-left-2066.webp": "91ec791b8d21840aee00847655c1df8eacc7e9b49fad9fe0a8fb1dbeb85283b6",
       "public/art/rooms/dome-right-1986.webp": "76e1fc9855a363fc4e8e233607c75ad29279dabd008c26499d192796d1bd33d9",
       "public/art/rooms/dome-right-2066.webp": "760f592e511d87527439c29244af90892b7ad8855ec3b7031c4721d8ed63f2ab",
-      "public/art/rooms/hall-back-1986.webp": "a6322504b1eaa909a3a440dc385e7e3132962103eb292b120a6760c737ea05f3",
-      "public/art/rooms/hall-back-2066.webp": "652ca5777a6581e16d1b292bf34176e5803d5348cf9a5a2fb82cbb0b754fcc5f",
-      "public/art/rooms/hall-left-1986.webp": "7c67228472e501188c248634f2c75108bd768372613f0956ecb7cca0f16a392b",
-      "public/art/rooms/hall-left-2066.webp": "74348a72565a9dbe33e64026a2b8db01a390038a91e045acc89a55593fc55d9a",
-      "public/art/rooms/hall-right-1986.webp": "36d00b863c89b871b45c113297edf710a381056e88fdc6f24782809614ccd1fd",
-      "public/art/rooms/hall-right-2066.webp": "aafb872600d39d4dbecedfe9fecb3deeb1e4d9ee34726937550656b65afcc8dd",
+      "public/art/rooms/hall-back-1986.webp": "50c3384a002a1d4e6f2da635e8c757957a14ab30b4306d10cb1345cdc9a3c619",
+      "public/art/rooms/hall-back-2066.webp": "8649619ce79033444811673a63cdc5697e063852a1524fe940fecbd9457a7282",
+      "public/art/rooms/hall-left-1986.webp": "0f658084ae71ae2189778b12e5b2679b7f988624cebefafd207fd95e1c194ba9",
+      "public/art/rooms/hall-left-2066.webp": "2b2560c63e2c2d4c203eac202d7ab419b991c8fb263d0d8b15329265c478f151",
+      "public/art/rooms/hall-right-1986.webp": "1645727db9ca2092c7c3425fe622204c2656b77e7ddfe599cae808feae4f766c",
+      "public/art/rooms/hall-right-2066.webp": "9348d0c403c3aea49d7d4d44d1589607230015ee0bcf39c0a0ac2da3fb1aa120",
       "public/art/rooms/machine-1986.webp": "914a53dcba7b5807dbe8db216fd67e60b2dbb96846a254d0fe4a534d734f8108",
       "public/art/rooms/machine-2066.webp": "08e0a7535498e14bde3e1e9ee99b70a4803028b350d6d59335c6e5d1379bf745",
       "public/art/rooms/machine-repaired-1986.webp": "509d622f47ab8ef29035276b34c90003fc07311084fdf4b3e4f8561ccaf4dbd1",
       "public/art/rooms/optics-1986.webp": "a5b1c7a0b62a08227182e5e83d257d059eeadd89e7f4932bb79acb19970cceb0",
       "public/art/rooms/optics-2066.webp": "2cdbe14d9105bf1e4e864e4a705eedff6ec6ea87b8a6079f64e5a97019a4291a",
       "public/art/telescope.png": "0af500899b36b4e9285355f39d3114b09861970b5bc5c01608893ed14d05e9cb",
-      "public/art/terminal.png": "b1ad498ed6f6ac1cfa754d97878c80672ad1a2a7ea44b44a160c8dc1f223aed1"
+      "public/art/terminal.png": "b1ad498ed6f6ac1cfa754d97878c80672ad1a2a7ea44b44a160c8dc1f223aed1",
+      "scripts/build-coop.mjs": "b13bfca20baa13d8b3cf58147e1ccd017156803219f241d8a936ae76b79f2037",
+      "scripts/build-offline.mjs": "b4569aa36b853ac2bd9d15c9f0cff204769509443a30011b5ef625f300f802f5",
+      "scripts/build-web.mjs": "802b4f87c92d8e3f8375cd0d5d176073fe6e49615881f8beb768820d8b3482d0",
+      "src/act-five-investigation.js": "bc8081b5d587f88bb66a93c4980fc916007baec669addd5f38c7b89583540885",
+      "src/act-five.js": "b75c8eceba55fe158bbb27046e70fff37f077568a7896824956c046dae9fa97e",
+      "src/act-four.js": "4b3ededd56e73d32d5541256d793df9f083f0f26c2bcec5c01e5e115c61b9211",
+      "src/act-one-presentation.js": "03da9dc18f48da89ae9246c4e18905d0e1261ca2ec34e8d82fec61c64fea82d4",
+      "src/act-one-story.js": "09313983debfbbb528dfb0281d260344cfb9604d34975b0c2f3b7d6cc1898dd2",
+      "src/act-three.js": "4954dea5be100723ca8e2991a28be3b946ed53575fa8cbd7a325347ae19c696d",
+      "src/act-two.js": "450d2a81953415ccd6e58b9e931fe88a218ee524660fe510483052e9def5f682",
+      "src/astronomy.js": "524cdfd457a4477001109df2546e66cf3083eebf85590d52e312673e2d7daede",
+      "src/audio.js": "6eefd8d11fa27cccbeabb4753f6c8aaf62a61bc853feb28f57b56661c6cd1ffa",
+      "src/build-role.js": "1c84216b22e4d73b6bb656cf64eb9f54f12ee02cec753f0ed9ac09ce8715b1b9",
+      "src/chapters.js": "f2493353214ada0d7eee1c573831b8c7019844b6d59191918ed34814442410ae",
+      "src/content.js": "8583a79aab090276ec89486eeb7fefc022fd4024b0e53a4c29351acf7db8403a",
+      "src/exploration.js": "3744d816c14149c761ff44de0bb742044adf831dc9e1080f190db8069e0dff65",
+      "src/finale.js": "6746d0be970d5e0488ee1b8c32c0b2b271938fdae51d4406b14706739119e0d3",
+      "src/game.js": "58d9b88c49b8b14b357ae21ad69d848add89a8fd7128651a0b7e710c3775b2cf",
+      "src/hall-art.js": "c98877d4be24459d9f43a916c6c7e00c569c06b0eabfc6797e4b4537ed844b81",
+      "src/hinged-art.js": "55076851ffbb5b00115fbf84c6451493902759c83538adc5a7d4f40c5833fe40",
+      "src/inscriptions.js": "a4891a4a4702d670481180385985c82970df9e7039c4db092d0d1f5286493c25",
+      "src/interaction-guide.js": "8718523831881dacc4d77dffeff698c744acc0ea3e777d74f8f106d486766f7a",
+      "src/investigation.js": "6191383e54f73eba5d657b981abf4ed9adc6352e9be7169d89a205d8906d6be4",
+      "src/joint-observation.js": "900a7fa7089968fea2ac3f3333fef40ab7953da182fddfc00651266f4edd8ad3",
+      "src/linear-control.js": "44eb3fb634ebcf38b51dd56fece0757a72b0ab00cea38c157ed066a4b0daf23d",
+      "src/main.js": "1e5d69c1a20bca7cda777ffff4e113657836af360ef5ad5105a8dfb68f6ddffb",
+      "src/mechanics.js": "484e6f2363d15ab47a8abc0ab795d2d8b79947f08a8cfd258f6a56e76ce59e98",
+      "src/meteor-report-view.js": "61b694384280d972b9a1b124b42fc28d0936413184e67c00779431bdad1efcb5",
+      "src/meteor-report.js": "b868b76ab1725c1041f7c547a32b929bfcbbbb217dbde76ca5eeb69f0b62291b",
+      "src/optics.js": "923153c5929c534ff3bc69f8a29124171e4a401706043492d25d42f993a22702",
+      "src/rendering.js": "9c87656201da4c006e72a466103a90915de9d1f656c8f98bac2061d1e0ab1e2b",
+      "src/rotary-control.js": "9c6d6969af3cab2aeccb03848fe8e35ea1945ddd701552ea6734a4c1d09d7771",
+      "src/sky-reference.js": "3c262020146e084f54d3cf7a22e2f4451ce724ce34aa79c1f23dff9e19778cc3",
+      "src/spatial-layout.js": "d0324b2459c3efd91f84f025e8898e832c89e981ad7afb55694c5c843aefd82a",
+      "src/state.js": "30732e7683428fdc272401d0bb480a852b5482b197ffe90a1c0d398dce6ea780",
+      "src/story.js": "18931b85832715bb93236e2c08551c31a8f29150568121442d077e70b8665162",
+      "src/ui.js": "7b0e7ca94894e0923c8fdbf35a41151db9e2750c60d2fc5ef97574a0a1b2b7b3",
+      "vite.config.js": "5ac6342a6a77456a5cd69f480df4e57eac6f9d9490260c88846eabef29db23ff",
+      "web/index.html": "547b23265a54c340c309a56df61370b9db26538f668c6217b36bc54e6c737337"
     },
     "bundles": {
-      "release/site/index.html": "cd124051576b6838bff6f9587f36706092f32a64176b49221cbe4a020d46cc2c",
-      "release/coop/Midnight-Observatory-A-1986.html": "5a501df743146391e92c42885c4a50123c6d22bfa11c71f0962d053cc5c022d9",
-      "release/site/A/index.html": "264dad8efbaeb03dd456325bbe97714f1c5d01a2ff366b59b4c9344fe21f07a8",
-      "release/site/A/assets/index-DZ5pNGSw.js": "ab15b2c0edf3843877fbed3e758a6baf330d575536bc2824f8430c74a3bedac0",
-      "release/coop/Midnight-Observatory-B-2066.html": "4af7e5e17aa4ad44f0c5521c61ef20f31620383477d1da1df5c022580e524e41",
-      "release/site/B/index.html": "22e11f52b1c8bd980a1f981750a8a789cab4771fc1079f28d8fa757c48c6b18d",
-      "release/site/B/assets/index-CuqY_h8v.js": "10d0553833f2803db2ca26aef7eaea35695b261552b20e39b7068a4302b76ae5"
+      "release/site/A/assets/index-D0WLgYmm.js": "ed374790d31dd91099a8ba80bd917d229c1fd1eb468be317372dac3b8ec887fe",
+      "release/site/A/index.html": "08a11c7eade721d2a4adec14d8b78da779355b84bcaa1fed378730446da3c983",
+      "release/site/B/assets/index-DA5-47PK.js": "19016274c267c129886a2802524d0471588d9e60d09128dd74fc7dd4b89ee87d",
+      "release/site/B/index.html": "787c68f8f63dc139644bcf1a7bd6b3e087c62ff56765673c026d9762aa83e802",
+      "dist/coop/A/assets/index-D0WLgYmm.js": "ed374790d31dd91099a8ba80bd917d229c1fd1eb468be317372dac3b8ec887fe",
+      "dist/coop/A/index.html": "fd72fbd7b47efc8d7918eca9e786abe2ff2562ca9d6f425e4fe94868650b9d84",
+      "dist/coop/B/assets/index-DA5-47PK.js": "19016274c267c129886a2802524d0471588d9e60d09128dd74fc7dd4b89ee87d",
+      "dist/coop/B/index.html": "38ff1ae4159f3c8d43b3b473f958aa87389368b8c02151bd59a37d0b76fd17ec",
+      "release/site/index.html": "9e43a049e9ba6326bd57a11ed2c0531b3814c3051311befa9ccc11c343153e28",
+      "release/coop/Midnight-Observatory-A-1986.html": "d70c5e5960e33c3ecfa7bf75c0d88e5b3c49380c6030eef1ca1baeec21a736ca",
+      "release/coop/Midnight-Observatory-B-2066.html": "d75820b0e2ac92a2fab2bc0d8bbb41d4b30b28ee63b2c7bf477e9c4a2bb10491"
     },
-    "buildCompletedAt": 1794337793.1958003
+    "buildCompletedAt": 1794352894.8907635,
+    "assetCopiesAndEmbeddedBytesVerified": true
   },
   "browser": {
     "firstAct": {
-      "version": "0.22.0",
-      "checksPassed": 12,
+      "version": "0.24.0",
+      "checksPassed": 16,
       "checks": [
         "Fresh normal saves open the couple story separately and export only the current role, with no prepared puzzle fixtures",
+        "Actual painted phone, logbook, exit, cabinet, chart and future dial entries all open their corresponding inspections",
         "Future telescope has its own aged inspection and no installation control; the terminal refuses an unrecovered chart",
         "Both painted handles operate the continuous hinged doors; inspection remains opaque and the cabinet opens, closes and reopens",
+        "Returning to the room preserves the same open cabinet state, with painted foreground occlusion and uncollected items",
         "Lens leaves its shelf and enters inventory, has an independent dirty inspection, and cannot be installed before cleaning",
         "Combining the actual cloth and lens shows the wiping action and a distinct clean lens while retaining the same inspection",
+        "Collected objects stay absent in both room and reopened cabinet, while inventory retains the independently cleaned lens and cloth",
         "Dragging the clean lens installs it beneath the registered retaining rim, consumes the item and keeps the telescope inspection open",
         "Only A sees the optical reticle; inspecting it does not send the clue or progress to B",
         "Dragging the four physical pages restores B-only named dial records and original coordinate readings; A remains unchanged",
         "A follows the identically named records read from B pages, rotates each physical dial and reaches its own first-act ending",
         "The three real terminal knobs accept the coordinate readings visible on B pages and its mounted plunger reaches the independent ending",
         "Both completed first-act saves, item states and viewing directions survive reload without acquiring the other role state",
+        "Each completed role uses the painted machine-room door into Act II and returns to the hall without losing its first-act apparatus progress",
         "All first-act art, masks, continuous animations and physical controls complete without browser exceptions or failed resources"
       ],
       "browserErrors": [],
       "httpErrors": [],
-      "scope": "Fresh independent first-act normal playthrough using known reference colour order, then actual B page text to derive A dial directions and B coordinates. All operations use real pointers/drags/wheels. Isolated browser contexts simulate spoken information transfer; no human blind playtest.",
+      "scope": "Fresh independent first-act normal playthrough using known reference colour order, then actual B page text to derive A dial directions and B coordinates. All operations use real pointers/drags/wheels. Room/inspection cabinet parity, all actual entry points and captured animation are included. Isolated browser contexts simulate spoken information transfer; no human blind playtest.",
       "humanBlindPlaytest": false,
-      "builtInImageGenerationsThisVersion": 4,
-      "externalPaidImageApiCalls": 0
-    },
-    "legacy": {
-      "version": "0.22.0",
-      "checksPassed": 9,
-      "checks": [
-        "A act 2 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
-        "A act 3 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
-        "A act 4 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
-        "A act 5 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
-        "B act 2 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
-        "B act 3 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
-        "B act 4 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
-        "B act 5 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
-        "Later-act inspections, failed local calibration and fresh final-stamp gate show no browser errors or failed assets"
-      ],
-      "browserErrors": [],
-      "httpErrors": [],
-      "scope": "Focused later-act regression using explicit chapter preparation checkpoints. Apparatus views and unsolved gates checked; not a fresh replay of Acts II–V."
+      "builtInImageGenerationsThisVersion": 7,
+      "externalPaidImageApiCalls": 0,
+      "motionRecording": {
+        "file": "cabinet-continuity.mp4",
+        "frames": 47,
+        "source": "Actual CDP browser screencast, no audio track"
+      }
     },
     "website": {
-      "version": "0.22.0",
+      "version": "0.24.0",
       "checksPassed": 8,
       "checks": [
-        "Web game bundles match the already-tested v0.22.0 independent offline builds byte for byte",
+        "Web game bundles match the same-version independent offline builds byte for byte",
         "Role selection and native scene previews load correctly below a project URL prefix",
         "Clicking A starts the actual Phaser game without a download; cabinet, pickup and reload persistence work",
         "Clicking B starts its own game; chart dragging and saved progress remain independent of A",
@@ -168,8 +174,26 @@
       "httpErrors": [],
       "validation": "Actual hosted-file structure tested on localhost beneath a project URL prefix. Public deployment status is verified separately through the GitHub Pages workflow."
     },
+    "legacy": {
+      "version": "0.24.0",
+      "checksPassed": 9,
+      "checks": [
+        "A act 2 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
+        "A act 3 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
+        "A act 4 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
+        "A act 5 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
+        "B act 2 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
+        "B act 3 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
+        "B act 4 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
+        "B act 5 chapter checkpoint opens its own apparatus, keeps progress unsolved and preserves independent state",
+        "Later-act inspections, failed local calibration and fresh final-stamp gate show no browser errors or failed assets"
+      ],
+      "browserErrors": [],
+      "httpErrors": [],
+      "scope": "Focused later-act regression using explicit chapter preparation checkpoints. Apparatus views and unsolved gates checked; not a fresh replay of Acts II–V."
+    },
     "embeddedStandalone": {
-      "version": "0.22.0",
+      "version": "0.24.0",
       "checksPassed": 3,
       "checks": [
         "A standalone HTML embeds correct WebP MIME and renders a lazy room with the network offline after startup; its real onward door still checks preparation",
@@ -198,149 +222,627 @@
         "http://127.0.0.1:9091/coop/Midnight-Observatory-B-2066.html"
       ],
       "scope": "Both direct file URLs were attempted. Organization Chromium URLBlocklist policy blocks file://; unchanged standalone HTML tested over permitted localhost instead, then network disabled before the embedded WebP lazy sector load. This does not validate direct local file startup or a complete offline replay.",
-      "builtInImageGenerations": 30,
+      "builtInImageGenerationsThisVersion": 7,
       "externalPaidImageApiCalls": 0
     },
-    "structureReview": {
-      "version": "0.22.0",
-      "checksPassed": 2,
+    "quality": {
+      "version": "0.24.0",
+      "checksPassed": 3,
       "checks": [
-        "All three structure diagrams switch through real review controls and render with the expected native dimensions",
-        "All fourteen fixed camera and section renders load through the selector without browser exceptions or failed resources"
+        "A full-HD room and registered cabinet hit area render at 1920x1080 with the physical inspection centered and no external asset failure",
+        "B full-HD room and registered cabinet hit area render at 1920x1080 with the physical inspection centered and no external asset failure",
+        "At 1280x720 the same painted handles still open and close the physical doors, with responsive hit positions and retained cabinet state"
       ],
       "browserErrors": [],
       "httpErrors": [],
-      "scope": "Production review document, not game art. Diagrams and all camera render assets operated through real browser controls."
+      "scope": "Real pointer checks at 1920x1080 and1280x720. Canvas presentation size does not change native source resolution; high-resolution art masters remain incomplete.",
+      "nativeHighResolutionMasterComplete": false
+    },
+    "hallViews": {
+      "version": "0.24.0",
+      "checksPassed": 7,
+      "checks": [
+        "A east reading table opens its own instrument guide and connected phone extension at the painted object positions",
+        "A rear notice, real stair entrance, west route plan and machine-room door open the right views and preserve unfinished local gates",
+        "A four directional views form a complete cycle, preserve facing on reload and keep independent first-act progress",
+        "B east reading table opens its own instrument guide and connected phone extension at the painted object positions",
+        "B rear notice, real stair entrance, west route plan and machine-room door open the right views and preserve unfinished local gates",
+        "B four directional views form a complete cycle, preserve facing on reload and keep independent first-act progress",
+        "All eight hall era/view paintings and their actual entry points load without browser exceptions or failed resources"
+      ],
+      "browserErrors": [],
+      "httpErrors": [],
+      "scope": "Real pointer exploration of four views in both independent role chapter-one checkpoints, all support entries and incomplete onward/stair gates. No completed puzzle state is injected."
     }
   },
   "visualAudit": {
-    "version": "0.22.0",
-    "fixedCabinetCornice": {
-      "A-cabinet-opening": {
-        "maxChannelDifference": 0
+    "version": "0.24.0",
+    "sourceRuntimePixelParity": [
+      {
+        "runtime": "public/art/rooms/hall-right-1986.webp",
+        "nativeSize": [
+          1672,
+          941
+        ],
+        "pixelIdentical": true
       },
-      "A-cabinet-open": {
-        "maxChannelDifference": 0
+      {
+        "runtime": "public/art/rooms/hall-right-2066.webp",
+        "nativeSize": [
+          1672,
+          941
+        ],
+        "pixelIdentical": true
       },
-      "A-cabinet-reclosed": {
-        "maxChannelDifference": 0
+      {
+        "runtime": "public/art/rooms/hall-back-1986.webp",
+        "nativeSize": [
+          1672,
+          941
+        ],
+        "pixelIdentical": true
+      },
+      {
+        "runtime": "public/art/rooms/hall-back-2066.webp",
+        "nativeSize": [
+          1671,
+          941
+        ],
+        "pixelIdentical": true
+      },
+      {
+        "runtime": "public/art/rooms/hall-left-1986.webp",
+        "nativeSize": [
+          1672,
+          941
+        ],
+        "pixelIdentical": true
+      },
+      {
+        "runtime": "public/art/rooms/hall-left-2066.webp",
+        "nativeSize": [
+          1671,
+          941
+        ],
+        "pixelIdentical": true
+      },
+      {
+        "runtime": "public/art/act1/v23/hall-1986.webp",
+        "nativeSize": [
+          1672,
+          941
+        ],
+        "pixelIdentical": true
+      },
+      {
+        "runtime": "public/art/act1/v23/hall-2066.webp",
+        "nativeSize": [
+          1671,
+          941
+        ],
+        "pixelIdentical": true
+      },
+      {
+        "runtime": "public/art/act1/v23/cabinet-body.webp",
+        "nativeSize": [
+          1672,
+          941
+        ],
+        "pixelIdentical": true
+      },
+      {
+        "runtime": "public/art/act1/v23/cabinet-doors.png",
+        "nativeSize": [
+          887,
+          1774
+        ],
+        "pixelIdentical": true
+      },
+      {
+        "runtime": "public/art/act1/v23/cabinet-future.webp",
+        "nativeSize": [
+          1672,
+          941
+        ],
+        "pixelIdentical": true
       }
-    },
-    "dirtyCleanLensMeanChannelDifference": 12.21,
-    "runtimeAssetPixelParity": [
-      "public/art/act1/cabinet-body.webp",
-      "public/art/act1/lens-states.png",
-      "public/art/act1/terminal-three.webp",
-      "public/art/act1/scope-future.webp"
     ],
-    "scope": "Compare exact rendered screenshots and unchanged corner pixels. Not a claim of perfect perspective in all existing backgrounds."
+    "fixedCabinetCorniceMaximumChannelDifference": 0.0,
+    "foregroundOcclusion": [
+      {
+        "region": "telephone-handset",
+        "box": [
+          355,
+          682,
+          389,
+          692
+        ],
+        "maximumChannelDifferenceClosedVsOpen": 0.0,
+        "meanChannelDifferenceClosedVsOpen": 0.0
+      },
+      {
+        "region": "lamp-shade",
+        "box": [
+          232,
+          558,
+          255,
+          587
+        ],
+        "maximumChannelDifferenceClosedVsOpen": 0.0,
+        "meanChannelDifferenceClosedVsOpen": 0.0
+      },
+      {
+        "region": "terminal-left-frame",
+        "box": [
+          548,
+          554,
+          565,
+          625
+        ],
+        "maximumChannelDifferenceClosedVsOpen": 0.0,
+        "meanChannelDifferenceClosedVsOpen": 0.0
+      }
+    ],
+    "eraLandmarks": [
+      {
+        "view": "front",
+        "landmark": "cabinet-cornice",
+        "region": [
+          110,
+          346,
+          496,
+          382
+        ],
+        "bestLocalShiftSourcePixels": [
+          0,
+          -1
+        ],
+        "edgeCorrelation": 0.3772
+      },
+      {
+        "view": "front",
+        "landmark": "original-exit-frame",
+        "region": [
+          757,
+          354,
+          993,
+          411
+        ],
+        "bestLocalShiftSourcePixels": [
+          0,
+          -1
+        ],
+        "edgeCorrelation": 0.7325
+      },
+      {
+        "view": "front",
+        "landmark": "dome-meridian",
+        "region": [
+          814,
+          0,
+          847,
+          205
+        ],
+        "bestLocalShiftSourcePixels": [
+          0,
+          0
+        ],
+        "edgeCorrelation": 0.7748
+      },
+      {
+        "view": "front",
+        "landmark": "telescope-objective",
+        "region": [
+          1428,
+          121,
+          1566,
+          236
+        ],
+        "bestLocalShiftSourcePixels": [
+          1,
+          1
+        ],
+        "edgeCorrelation": 0.6612
+      },
+      {
+        "view": "right",
+        "landmark": "bookcase-cornice",
+        "region": [
+          0,
+          282,
+          286,
+          331
+        ],
+        "bestLocalShiftSourcePixels": [
+          0,
+          0
+        ],
+        "edgeCorrelation": 0.6828
+      },
+      {
+        "view": "right",
+        "landmark": "moon-frame-tops",
+        "region": [
+          932,
+          329,
+          1465,
+          371
+        ],
+        "bestLocalShiftSourcePixels": [
+          1,
+          0
+        ],
+        "edgeCorrelation": 0.628
+      },
+      {
+        "view": "right",
+        "landmark": "extension-phone",
+        "region": [
+          552,
+          602,
+          680,
+          688
+        ],
+        "bestLocalShiftSourcePixels": [
+          0,
+          0
+        ],
+        "edgeCorrelation": 0.8037
+      },
+      {
+        "view": "right",
+        "landmark": "dome-cornice",
+        "region": [
+          300,
+          132,
+          860,
+          183
+        ],
+        "bestLocalShiftSourcePixels": [
+          0,
+          0
+        ],
+        "edgeCorrelation": 0.8228
+      },
+      {
+        "view": "left",
+        "landmark": "machine-door-frame",
+        "region": [
+          905,
+          359,
+          1212,
+          418
+        ],
+        "bestLocalShiftSourcePixels": [
+          1,
+          -1
+        ],
+        "edgeCorrelation": 0.6462
+      },
+      {
+        "view": "left",
+        "landmark": "route-plan-frame",
+        "region": [
+          525,
+          391,
+          731,
+          430
+        ],
+        "bestLocalShiftSourcePixels": [
+          -1,
+          0
+        ],
+        "edgeCorrelation": 0.5487
+      },
+      {
+        "view": "left",
+        "landmark": "dome-cornice",
+        "region": [
+          798,
+          140,
+          1334,
+          180
+        ],
+        "bestLocalShiftSourcePixels": [
+          0,
+          1
+        ],
+        "edgeCorrelation": 0.7139
+      },
+      {
+        "view": "back",
+        "landmark": "stair-portal",
+        "region": [
+          558,
+          141,
+          1116,
+          222
+        ],
+        "bestLocalShiftSourcePixels": [
+          0,
+          -1
+        ],
+        "edgeCorrelation": 0.7495
+      },
+      {
+        "view": "back",
+        "landmark": "landing-door-frame",
+        "region": [
+          741,
+          318,
+          930,
+          358
+        ],
+        "bestLocalShiftSourcePixels": [
+          1,
+          0
+        ],
+        "edgeCorrelation": 0.7249
+      },
+      {
+        "view": "back",
+        "landmark": "lower-landing",
+        "region": [
+          711,
+          605,
+          967,
+          649
+        ],
+        "bestLocalShiftSourcePixels": [
+          1,
+          1
+        ],
+        "edgeCorrelation": 0.8626
+      },
+      {
+        "view": "back",
+        "landmark": "notice-frame",
+        "region": [
+          1245,
+          341,
+          1446,
+          382
+        ],
+        "bestLocalShiftSourcePixels": [
+          1,
+          0
+        ],
+        "edgeCorrelation": 0.4515
+      }
+    ],
+    "registrationMethod": "Local gradient correlation over unchanged architectural landmarks, ±6 native pixels; future normalized to past dimensions for measurement only. Not a proof that every painted pixel shares exact 3D geometry.",
+    "manualReviewRequired": [
+      "Painted details beyond audited landmarks",
+      "Native 2560x1440 art masters",
+      "Remaining apparatus final paintings",
+      "Human blind playtest"
+    ],
+    "nativeHighResolutionMasterComplete": false
   },
+  "scope": "All eight hall era/view paintings and registered lore/door entries, with inherited layered cabinet sample. Not final first-act master art.",
   "structure": {
-    "status": "Proposed metric blockout and cameras; existing game backgrounds have not all been redrawn to this model. Not final game art.",
-    "geometry": {
-      "checks": [
-        {
-          "path": "Hall to machinery",
-          "samples": 2,
-          "floorContinuitySamples": 16,
-          "minimumActualHeadroomM": 2.5,
-          "passed": true
-        },
-        {
-          "path": "Machine to archive",
-          "samples": 4,
-          "floorContinuitySamples": 63,
-          "minimumActualHeadroomM": 2.5,
-          "passed": true
-        },
-        {
-          "path": "Archive to optics",
-          "samples": 4,
-          "floorContinuitySamples": 63,
-          "minimumActualHeadroomM": 2.5,
-          "passed": true
-        },
-        {
-          "path": "mainStair",
-          "samples": 36,
-          "floorContinuitySamples": 221,
-          "minimumActualHeadroomM": 2.3,
-          "passed": true
-        },
-        {
-          "path": "opticsStair",
-          "samples": 34,
-          "floorContinuitySamples": 245,
-          "minimumActualHeadroomM": 2.3,
-          "passed": true
-        }
-      ],
-      "sharedEraGeometry": true,
-      "riseMatchesUpperFloor": true,
-      "minimumDoorWidth": 1.25,
-      "minimumLandingDepth": 1.4
-    },
-    "cameraCount": 14,
-    "diagrams": 3,
-    "modelSha256": "8c3ecd9c905293f46dd74d5508c5058e3a4b5e7a7df4bca87de003cec5a6d049",
-    "scriptSha256": "21e154ea9206e49e98269d052e6a2b157cf93cc744a9a415f89ae2c0182c5984",
-    "layoutSha256": "1def6f6dd91c54b3a16f038fa654066b47cd2e7ca4458de3fe30dfdbd5c0d517"
+    "model": "hall-eight-view-reference.blend",
+    "modelSha256": "2b4815bc77c4dedda2a121f94098041540e18eb51282bbe9720feff89ad22259",
+    "hallViews": 4,
+    "sharedEraGeometry": true,
+    "layoutSha256": "3d0e59e7aab3a8b1cba6f1b667c9d09f7f48c004e5fd0ff503fb9fe661842882",
+    "status": "Same-anchor production reference; all eight hall era/view paintings updated. Not a seamless panorama."
   },
   "art": {
-    "builtInImageGenerationsThisVersion": 4,
-    "previousScenePassCounter": 30,
-    "externalPaidImageApiCalls": 0,
-    "newAssets": [
-      {
-        "runtime": "public/art/act1/cabinet-body.webp",
-        "source": "/workspace/generated_images/exec-e4e7c88e-d95c-4791-aa2d-4717e7f52a99.png",
-        "width": 1672,
-        "height": 941,
-        "lossless": true,
-        "sha256": "d648fc5ed3e1903efdbc205a82022c5225796438f6d716517528013699357e40"
-      },
-      {
-        "runtime": "public/art/act1/lens-states.png",
-        "source": "/workspace/generated_images/exec-970091da-13a6-4693-bb71-162082265aa6.png",
-        "width": 1774,
-        "height": 887,
-        "lossless": true,
-        "sha256": "1a402a8191fdd6d1b258a772fc98c2236aa9962c561756d3ab296a3b3a427fe2",
-        "frames": [
-          {
-            "x": 85,
-            "y": 79,
-            "w": 720,
-            "h": 732
+    "current": {
+      "version": "0.24.0",
+      "status": "six-paintings-integrated",
+      "builtInImageGenerationsThisVersion": 7,
+      "externalPaidImageApiCalls": 0,
+      "runtimeStatus": "第一幕大厅八个年代/视角按同一结构与色彩标准制作；柜子分层样板沿用v0.23。其余机关终稿、高清母稿、最终拟音和真人盲测尚未完成。",
+      "assets": [
+        {
+          "runtime": "public/art/rooms/hall-right-1986.webp",
+          "source": "/workspace/generated_images/exec-8c6bbe2e-0bb8-473f-9b3d-fa31043c7c33.png",
+          "nativeSize": [
+            1672,
+            941
+          ],
+          "view": "right",
+          "era": 1986,
+          "losslessPixelParity": true,
+          "sha256": "1645727db9ca2092c7c3425fe622204c2656b77e7ddfe599cae808feae4f766c"
+        },
+        {
+          "runtime": "public/art/rooms/hall-right-2066.webp",
+          "source": "/workspace/generated_images/exec-bbb5507d-5034-4159-b95b-cdf1ef7e0a7d.png",
+          "nativeSize": [
+            1672,
+            941
+          ],
+          "view": "right",
+          "era": 2066,
+          "losslessPixelParity": true,
+          "sha256": "9348d0c403c3aea49d7d4d44d1589607230015ee0bcf39c0a0ac2da3fb1aa120"
+        },
+        {
+          "runtime": "public/art/rooms/hall-back-1986.webp",
+          "source": "/workspace/generated_images/exec-3c59f2c0-9bf7-4102-ae88-f259e08f0cb7.png",
+          "nativeSize": [
+            1672,
+            941
+          ],
+          "view": "back",
+          "era": 1986,
+          "losslessPixelParity": true,
+          "sha256": "50c3384a002a1d4e6f2da635e8c757957a14ab30b4306d10cb1345cdc9a3c619"
+        },
+        {
+          "runtime": "public/art/rooms/hall-back-2066.webp",
+          "source": "/workspace/generated_images/exec-46272c42-0975-4bec-94eb-dc874d9867ce.png",
+          "nativeSize": [
+            1671,
+            941
+          ],
+          "view": "back",
+          "era": 2066,
+          "losslessPixelParity": true,
+          "sha256": "8649619ce79033444811673a63cdc5697e063852a1524fe940fecbd9457a7282"
+        },
+        {
+          "runtime": "public/art/rooms/hall-left-1986.webp",
+          "source": "/workspace/generated_images/exec-9aa459bd-d212-4e1c-bb26-018141bd5bdd.png",
+          "nativeSize": [
+            1672,
+            941
+          ],
+          "view": "left",
+          "era": 1986,
+          "losslessPixelParity": true,
+          "sha256": "0f658084ae71ae2189778b12e5b2679b7f988624cebefafd207fd95e1c194ba9"
+        },
+        {
+          "runtime": "public/art/rooms/hall-left-2066.webp",
+          "source": "/workspace/generated_images/exec-d30c3224-6eb5-4395-833f-4cb81a3105ee.png",
+          "nativeSize": [
+            1671,
+            941
+          ],
+          "view": "left",
+          "era": 2066,
+          "losslessPixelParity": true,
+          "sha256": "2b2560c63e2c2d4c203eac202d7ab419b991c8fb263d0d8b15329265c478f151"
+        }
+      ],
+      "inheritedSourceManifest": "../art-v3/sources.json",
+      "withdrawnDrafts": [
+        {
+          "source": "/workspace/generated_images/exec-834f2587-6bab-4345-bfc9-0cdca3f7a4d8.png",
+          "reason": "Wall map corrected from hub topology to the actual five-room cycle."
+        }
+      ],
+      "nativeHighResolutionMasterComplete": false
+    },
+    "inherited": {
+      "builtInImageGenerationsThisVersion": 7,
+      "externalPaidImageApiCalls": 0,
+      "assets": [
+        {
+          "runtime": "public/art/act1/v23/hall-1986.webp",
+          "source": "/workspace/generated_images/exec-e7f52710-0c5a-4bbe-90e0-a92818f3b39a.png",
+          "nativeSize": [
+            1672,
+            941
+          ],
+          "losslessPixelParity": true,
+          "sha256": "94f72db1b696a2fff23fb0c74d426a7e7a0964253ff4f65a943a6c83b05932d4"
+        },
+        {
+          "runtime": "public/art/act1/v23/hall-2066.webp",
+          "source": "/workspace/generated_images/exec-d429a655-749e-4438-8422-a8b988da64c2.png",
+          "nativeSize": [
+            1671,
+            941
+          ],
+          "losslessPixelParity": true,
+          "sha256": "756616afb22990bcfb28c9bde10a02817ffb193355614b70878083821b21f163"
+        },
+        {
+          "runtime": "public/art/act1/v23/cabinet-body.webp",
+          "source": "/workspace/generated_images/exec-3c69cb23-a8df-423e-9a92-6f1adcfa610b.png",
+          "nativeSize": [
+            1672,
+            941
+          ],
+          "losslessPixelParity": true,
+          "sha256": "68c5aac08cde2d1c22dfb78259b1fc57e9d284cd79764723592d10b7cb6c8d7e"
+        },
+        {
+          "runtime": "public/art/act1/v23/cabinet-doors.png",
+          "source": "/workspace/generated_images/exec-597523d5-a531-4741-b5a1-8894588e5e73.png",
+          "nativeSize": [
+            887,
+            1774
+          ],
+          "losslessPixelParity": true,
+          "sha256": "d4d2232427e5e99e14f73a49256867c447edd6c85e682714a93135a0d501bf0e",
+          "frames": {
+            "left-front": [
+              35,
+              51,
+              388,
+              787
+            ],
+            "right-front": [
+              466,
+              51,
+              385,
+              786
+            ],
+            "left-inner": [
+              36,
+              935,
+              387,
+              786
+            ],
+            "right-inner": [
+              466,
+              935,
+              385,
+              786
+            ]
           },
-          {
-            "x": 952,
-            "y": 79,
-            "w": 721,
-            "h": 732
-          }
-        ]
-      },
-      {
-        "runtime": "public/art/act1/terminal-three.webp",
-        "source": "/workspace/generated_images/exec-85d4a501-fd91-464a-a179-e03be3ed287b.png",
-        "width": 1671,
-        "height": 941,
-        "lossless": true,
-        "sha256": "e0fb7c1a1dd76b15324fb99d26165c3397a93d96bcf00f02acb045ccf11a42c5"
-      },
-      {
-        "runtime": "public/art/act1/scope-future.webp",
-        "source": "/workspace/generated_images/exec-4d52771e-492d-44a0-9913-743f632292dc.png",
-        "width": 1672,
-        "height": 941,
-        "lossless": true,
-        "sha256": "3d8299f007b378882540a06d0593bdd0906676b60e798265c68ff2684ae4f696"
-      }
-    ],
-    "status": "First-act object presentation sample; full background repaint, final materials, moving contact shadows and native high-resolution masters remain for later production."
+          "transparentPixels": 341560,
+          "movingTimberFrames": {
+            "left-front": [
+              55,
+              51,
+              368,
+              787
+            ],
+            "right-front": [
+              466,
+              51,
+              365,
+              786
+            ],
+            "left-inner": [
+              56,
+              935,
+              367,
+              786
+            ],
+            "right-inner": [
+              466,
+              935,
+              365,
+              786
+            ]
+          },
+          "frameNote": "Atlas hinge knuckles are omitted from moving slabs; fixed-body hinge plates remain attached to the cabinet frame."
+        },
+        {
+          "runtime": "public/art/act1/v23/cabinet-future.webp",
+          "source": "/workspace/generated_images/exec-7b973399-92e2-4888-93f8-48d2807937de.png",
+          "nativeSize": [
+            1672,
+            941
+          ],
+          "losslessPixelParity": true,
+          "sha256": "0dd4cd0134681b6c5b997fde3bfad0b8d76c4bc7bfcf3cfd47daed5317cbcd1a"
+        }
+      ],
+      "nativeHighResolutionMasterComplete": false,
+      "resolutionGap": "Built-in output is below the 2560x1440 master target. No interpolation or claim of native 4K.",
+      "withdrawnDrafts": [
+        {
+          "source": "/workspace/generated_images/exec-6c62c3f0-a7c4-40dd-a215-0625bdacb310.png",
+          "reason": "A structure-reference block was mistaken for an unexplained desk apparatus; localized correction removed it."
+        },
+        {
+          "source": "/workspace/generated_images/exec-36bbce5f-c618-4e88-8d36-8600af1caaea.png",
+          "reason": "A structure-reference block was mistaken for an unexplained desk apparatus; localized correction removed it."
+        }
+      ]
+    }
   },
   "humanBlindPlaytest": false,
+  "nativeHighResolutionMasterComplete": false,
   "directFileStartValidated": false,
-  "publicationValidation": "Exact game files tested on localhost; direct file URLs attempted and policy limitation recorded in standalone report. Matching GitHub Pages commit is checked separately after publishing."
+  "publicationValidation": "Files tested on localhost; public demo remains v0.22.0 until a separately approved v0.24.0 deployment."
 }
